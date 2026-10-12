@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "method": "Manual CFF syntax review plus author/order/contact and absent-public-identifier checks; no external CFF schema validator was installed.",
+  "authors": [
+    "Ali Sayghe",
+    "Husam A. Bakhsh",
+    "Olugbenga Moses Anubi"
+  ],
+  "corresponding_email": "sayghea@rcjy.edu.sa",
+  "repository_url": "not yet assigned",
+  "publication_doi": "not yet assigned",
+  "ORCIDs": "not supplied"
+}

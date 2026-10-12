@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "aggregate_rows": 5040,
+  "primary_contrasts": 2,
+  "all_aggregate_fields_verified": true,
+  "no_replay_or_refit": true
+}

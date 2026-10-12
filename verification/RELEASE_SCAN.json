@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "files_scanned": 575,
+  "gzip_payloads_scanned": 391,
+  "total_bytes": 276542091,
+  "largest_files": [
+    {
+      "path": "frozen/co_revision_execution_v2/work/evidence/METRICS_BY_RUN_FAMILY_BAND_SUBSET.csv.gz",
+      "bytes": 10881929
+    },
+    {
+      "path": "frozen/co_revision_execution_v2/work/evidence/PAIRED_LOSS_PATHS.json.gz",
+      "bytes": 6274817
+    },
+    {
+      "path": "frozen/co_revision_execution_v2/work/evidence/METRICS_BY_CONFIGURATION.csv.gz",
+      "bytes": 5937219
+    },
+    {
+      "path": "frozen/co_revision_execution_v2/work/evidence/runs_primary_RF_D6.json.gz",
+      "bytes": 5546453
+    },
+    {
+      "path": "frozen/co_revision_execution_v2/work/evidence/runs_primary_RF_D10.json.gz",
+      "bytes": 5545952
+    },
+    {
+      "path": "frozen/co_revision_execution_v2/work/evidence/runs_primary_RF_D8.json.gz",
+      "bytes": 5453708
+    },
+    {
+      "path": "frozen/co_submission_finish_v1/c5_execution_v1/replays/METRICS.json.gz",
+      "bytes": 5393795
+    },
+    {
+      "path": "predictions/confirmation/D11.csv.gz",
+      "bytes": 3743267
+    },
+    {
+      "path": "predictions/development/primary_RF_D6.csv.gz",
+      "bytes": 3723669
+    },
+    {
+      "path": "predictions/development/primary_RF_D10.csv.gz",
+      "bytes": 3708508
+    }
+  ],
+  "findings": [],
+  "scope": "Distributable files, expanded gzip/NPZ payloads, raw binary strings and extracted PDF text/metadata. Joblib objects are never loaded. Generated build output, environments, caches, Git metadata and optional external raw downloads are excluded by the packaging rule.",
+  "limitation": "Pattern and filename scan, not a guarantee that every possible secret format can be detected.",
+  "release_hashes_verified": 574,
+  "license_files_present": true,
+  "license_authority_approval": "pending authors; technical scan is not legal approval"
+}

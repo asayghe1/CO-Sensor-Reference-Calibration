@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "started_utc": "2026-10-12T15:56:04.233114+00:00",
+  "completed_utc": "2026-10-12T15:58:23.484058+00:00",
+  "scope": "Saved numerical evidence and presentation reproduction",
+  "seconds": 139.25,
+  "source_files_unchanged": 417,
+  "models_fitted": 0,
+  "predictions_generated": 0,
+  "C5_replays_executed": 0,
+  "new_resampling_indices": 0,
+  "confirmation_bootstrap": false,
+  "raw_data_access": false,
+  "latex_checked": true
+}

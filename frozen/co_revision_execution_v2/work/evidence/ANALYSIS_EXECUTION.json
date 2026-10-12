@@ -1,0 +1,17 @@
+{
+  "metric_rows": 134460,
+  "config_rows": 134460,
+  "aggregate_rows": 15336,
+  "conditional_effect_rows": 37620,
+  "run_estimator_records": 3735,
+  "resampling_label": "conditional resampling sensitivity of fixed loss paths",
+  "block_lengths": [
+    5,
+    10,
+    20
+  ],
+  "primary_length": 10,
+  "reference_uncertainty_propagated": false,
+  "adaptive_learning_rerun_in_resamples": false,
+  "seeds_then_equal_days": true
+}

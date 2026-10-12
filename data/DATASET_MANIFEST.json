@@ -1,0 +1,125 @@
+{
+  "outer_sha256": "cb5ce4a6af1a51b933d1979952d7845f0e9baac54e15a81a1e3599e8b85905d4",
+  "nested_member": "gas-sensor-array-temperature-modulation.zip",
+  "nested_sha256": "4a6b4e3609aeff297dcbed084e7c85f1c88a8c5219417afebe99281c369dcd11",
+  "dataset": "Gas sensor array temperature modulation",
+  "uci_id": 487,
+  "doi": "10.24432/C5S302",
+  "official_record": "https://archive.ics.uci.edu/dataset/487/gas+sensor+array+temperature+modulation",
+  "citation": "Burgus, J. (2018). Gas sensor array temperature modulation [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5S302.",
+  "license": "CC-BY-4.0",
+  "license_source_checked": "2026-10-12",
+  "checksum_provenance": "Historically verified project archive; not a publisher-issued checksum. The raw archive was not opened or downloaded during release preparation.",
+  "allowed_units": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "excluded_units": [
+    7,
+    14
+  ],
+  "download_required_for_saved_evidence_workflow": false,
+  "raw_inventory": [
+    {
+      "name": "20161005_140846.csv",
+      "bytes": 46512828,
+      "compressed_bytes": 14028206,
+      "crc32": 3408717914,
+      "sha256": "7e4b0fcd096ccad3cf19e4ff35a9656ba3d8c1518e29791fbaa9441820dd3da4"
+    },
+    {
+      "name": "20161006_182224.csv",
+      "bytes": 46490821,
+      "compressed_bytes": 14090612,
+      "crc32": 2709386293,
+      "sha256": "8c3ff4e77d8214bc59ffca94193dccc685bb05122694d9da39948be072f07395"
+    },
+    {
+      "name": "20161007_210049.csv",
+      "bytes": 46511262,
+      "compressed_bytes": 14124831,
+      "crc32": 2306978926,
+      "sha256": "064a6b252ec56bbc3fdf6960a3cc1f739d850d4d1b921b7b9ed725883bc23a21"
+    },
+    {
+      "name": "20161008_234508.csv",
+      "bytes": 46490085,
+      "compressed_bytes": 14120327,
+      "crc32": 3721953710,
+      "sha256": "bebf12bfc6929c95ed73de46a54fbc80ddfcc24ec9ad28b039305b3c67b4c871"
+    },
+    {
+      "name": "20161010_095046.csv",
+      "bytes": 46552929,
+      "compressed_bytes": 14086458,
+      "crc32": 3373235542,
+      "sha256": "55a130d0882d50fe55daf63218d0a4cc5ffaefe30dd76436ada255e3e2bcea17"
+    },
+    {
+      "name": "20161011_113032.csv",
+      "bytes": 46499956,
+      "compressed_bytes": 14034394,
+      "crc32": 3316636905,
+      "sha256": "f34316e70923d0b3438878b69bf87c5831463421c78280c73f6344cfbd616d65"
+    },
+    {
+      "name": "20161013_143355.csv",
+      "bytes": 46361883,
+      "compressed_bytes": 14394495,
+      "crc32": 4078839825,
+      "sha256": "c9795959836b269218b27be675cf97c5908ec8c02e9ebe6505cfb2a8a73a321d"
+    },
+    {
+      "name": "20161014_184659.csv",
+      "bytes": 46581927,
+      "compressed_bytes": 14086850,
+      "crc32": 2322920487,
+      "sha256": "6dc1f01585063f3823e8ecc7844443462f64f87d8b247b3391de25a3e2fcf43c"
+    },
+    {
+      "name": "20161016_053656.csv",
+      "bytes": 46522575,
+      "compressed_bytes": 14077989,
+      "crc32": 2537460736,
+      "sha256": "8b45714e4efee3f18031b019bd843139bf7fb636288cede1700b232b36fe7170"
+    },
+    {
+      "name": "20160930_203718.csv",
+      "bytes": 46497205,
+      "compressed_bytes": 14120022,
+      "crc32": 978851662,
+      "sha256": "9f997935e18305db7a4a5040854196d5c128e84f3302f2e37e2c233893ca5159"
+    },
+    {
+      "name": "20161001_231809.csv",
+      "bytes": 46474551,
+      "compressed_bytes": 14109227,
+      "crc32": 3076842198,
+      "sha256": "87b41d69b710eea8e2f974f39c19e40ec42dc28a684cd670409ad45f7481eb37"
+    },
+    {
+      "name": "20161003_085624.csv",
+      "bytes": 46493770,
+      "compressed_bytes": 14155589,
+      "crc32": 336892053,
+      "sha256": "9d69552abba51adaa2ec5d47abb12641e16a29b6b79f9a39ddb2179937699d62"
+    },
+    {
+      "name": "20161004_104124.csv",
+      "bytes": 46633866,
+      "compressed_bytes": 13859040,
+      "crc32": 2106758534,
+      "sha256": "cd8466a09d54592cc191e2c4d2b9515590ad62784fb2ddc25a9f066b8b1af3b4"
+    }
+  ]
+}

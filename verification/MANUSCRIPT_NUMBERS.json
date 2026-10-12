@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "primary_confirmation": {
+    "ALL": {
+      "mae": [
+        1.4569829326061328,
+        1.355345024288602,
+        1.3256768552147524
+      ],
+      "strict_1ppm_counts": [
+        1791,
+        1550,
+        1517
+      ],
+      "outputs": 3600
+    },
+    "Figaro": {
+      "mae": [
+        2.031983782065526,
+        1.7635911117058494,
+        1.748061598874816
+      ],
+      "strict_1ppm_counts": [
+        1275,
+        1035,
+        1019
+      ],
+      "outputs": 1800
+    },
+    "FIS": {
+      "mae": [
+        0.88198208314674,
+        0.9470989368713546,
+        0.9032921115546886
+      ],
+      "strict_1ppm_counts": [
+        516,
+        515,
+        498
+      ],
+      "outputs": 1800
+    }
+  },
+  "historical_full_criterion": false,
+  "incremental_aggregate_criterion": true,
+  "uniform_session_improvement": false,
+  "envelope_schedule_superiority": false,
+  "false_assurance": {
+    "false": 38,
+    "flagged": 74,
+    "total_outputs": 3600
+  },
+  "development_adverse_B20_MAE": 15,
+  "confirmation_favorable_B20_MAE": 14,
+  "confirmation_adverse_B20_MAE": 1,
+  "scientific_winner_reselected": false
+}

@@ -1,0 +1,34 @@
+\small\setlength{\tabcolsep}{4pt}
+\begin{longtable}{llrrr}
+\caption{Paid query timing, mean per session after random-seed averaging. Only the final query has no later scored prediction under day reset; no purchase is refunded. Per-run queries remain in the archive.}\label{tab:s_timing}\\
+\toprule
+Model & Schedule & $B$ & Last 10 & At final \\ \midrule\endfirsthead
+\toprule
+Model & Schedule & $B$ & Last 10 & At final \\ \midrule\endhead
+\bottomrule\endfoot
+RF & Periodic & 5 & 1.00 & 0.00 \\
+RF & Random & 5 & 0.80 & 0.00 \\
+RF & Confidence & 5 & 1.00 & 0.33 \\
+RF & Envelope & 5 & 0.00 & 0.00 \\
+RF & Information & 5 & 0.33 & 0.00 \\
+RF & Periodic & 10 & 1.00 & 0.00 \\
+RF & Random & 10 & 0.70 & 0.00 \\
+RF & Confidence & 10 & 1.00 & 0.33 \\
+RF & Envelope & 10 & 0.00 & 0.00 \\
+RF & Information & 10 & 0.00 & 0.00 \\
+RF & Periodic & 20 & 2.00 & 0.00 \\
+RF & Random & 20 & 2.30 & 0.20 \\
+RF & Confidence & 20 & 1.33 & 0.33 \\
+RF & Envelope & 20 & 1.00 & 0.33 \\
+RF & Information & 20 & 0.00 & 0.00 \\
+OLS & Periodic & 20 & 2.00 & 0.00 \\
+OLS & Random & 20 & 2.30 & 0.20 \\
+OLS & Confidence & 20 & 0.33 & 0.00 \\
+OLS & Envelope & 20 & 0.67 & 0.00 \\
+OLS & Information & 20 & 0.00 & 0.00 \\
+Ridge & Periodic & 20 & 2.00 & 0.00 \\
+Ridge & Random & 20 & 2.30 & 0.20 \\
+Ridge & Confidence & 20 & 1.00 & 0.00 \\
+Ridge & Envelope & 20 & 1.33 & 0.00 \\
+Ridge & Information & 20 & 0.00 & 0.00 \\
+\end{longtable}\normalsize

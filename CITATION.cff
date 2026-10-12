@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript and the original UCI dataset when using this reproducibility package. This is a local author-review candidate; publication identifiers are not yet assigned."
+title: "Historical recalibration versus additional reference checks in CO sensor arrays: a chronological evaluation — reproducibility materials"
+type: software
+authors:
+  - family-names: Sayghe
+    given-names: Ali
+    email: sayghea@rcjy.edu.sa
+    affiliation: "Department of Electrical and Electronic Engineering, Yanbu Industrial College, Royal Commission for Jubail and Yanbu, Yanbu, Saudi Arabia."
+  - family-names: Bakhsh
+    given-names: Husam A.
+    affiliation: "Department of Electrical and Computer Engineering, FAMU-FSU College of Engineering, Tallahassee, FL 32310, USA; Center for Advanced Power Systems, Florida State University, Tallahassee, FL 32310, USA."
+  - family-names: Anubi
+    given-names: Olugbenga Moses
+    affiliation: "Department of Electrical and Computer Engineering, FAMU-FSU College of Engineering, Tallahassee, FL 32310, USA; Center for Advanced Power Systems, Florida State University, Tallahassee, FL 32310, USA."
+license: MIT
+keywords:
+  - carbon monoxide
+  - sensor arrays
+  - calibration
+  - temporal confirmation
+  - reproducibility
+# Repository URL, publication DOI, release date and archival identifier are omitted
+# until they actually exist and have been approved by the authors.

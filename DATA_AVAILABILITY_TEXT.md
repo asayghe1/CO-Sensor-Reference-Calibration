@@ -1,0 +1,5 @@
+# Data availability — draft for author approval
+
+The source measurements are publicly available as *Gas sensor array temperature modulation* in the UCI Machine Learning Repository (J. Burgus, 2018; https://doi.org/10.24432/C5S302), under CC BY 4.0. The accompanying reproducibility package supplies the derived numerical evidence used for the reported development and fixed-D10 temporal-confirmation analyses, including saved predictions, reference values, query masks, causal-access records, metrics, protocols and provenance hashes. The public repository URL will be inserted after release: **[GITHUB_REPOSITORY_URL]**. The original raw archive is obtained directly from UCI using the documented download instructions and historical checksum; it is not redistributed in the package. R7/R14 raw data and UCI270 sealed batches are excluded.
+
+Current status: a local release candidate exists. Public repository creation, the final access arrangement and all-author approval have not been confirmed. The URL placeholder must not be replaced with an invented repository or DOI.

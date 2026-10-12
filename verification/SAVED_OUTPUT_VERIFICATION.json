@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "protocol_sha256": "4de22fff8678773f3fb3ba23198431947efe3c54145b8452ddec2ebf036c40bc",
+  "replays": 129,
+  "prequery_events": 12900,
+  "metric_rows": 40635,
+  "purchase_states_checked": 52920,
+  "maximum_run_metric_absolute_difference": 0.0,
+  "recorded_numerical_failure_events": [],
+  "frozen_hashes_and_prior_preservation": "PASS",
+  "excluded_sensor_values_parsed": false,
+  "no_refit_or_replay": true,
+  "utc": "2026-10-12T15:57:44.897123+00:00",
+  "verification_method": "Automated saved-output arithmetic and causal-log check; no raw access or replay",
+  "raw_final_payloads_reopened": false
+}

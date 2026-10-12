@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "saved_run_export_rows": 40635,
+  "saved_aggregate_export_rows": 5040,
+  "presentation_csv_rows": 36,
+  "typeset_rows_by_file": {
+    "table_c5_primary.tex": 3,
+    "table_c5_intervals.tex": 3,
+    "table_s_c5_sessions_mae.tex": 9,
+    "table_s_c5_sessions_counts.tex": 9,
+    "table_s_c5_b20.tex": 15,
+    "table_s_c5_all.tex": 336
+  },
+  "unchanged_csv_copies": [
+    "C5_AGGREGATE.csv",
+    "C5_B20_AFFINE_CHANGES.csv",
+    "C5_INTERVAL_TABLE.csv",
+    "C5_METRICS.csv",
+    "C5_PRIMARY_SESSION_TABLE.csv",
+    "C5_PRIMARY_TABLE.csv"
+  ],
+  "no_prediction_generation_or_raw_access": true
+}

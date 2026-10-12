@@ -1,0 +1,13 @@
+If $\ell>u$, the raw model is contradictory. The original midpoint algorithm returns the midpoint of the descriptive hull,
+\begin{equation}
+[\ell^{\rm hull},u^{\rm hull}]=
+\left[\min_{j\in\mathcal J_t}(e_j-w_{jt}),\;
+\max_{j\in\mathcal J_t}(e_j+w_{jt})\right],
+\end{equation}
+while projection returns unchanged consensus. Assurance is withheld in either case. Hull containment does not restore the failed intersection model.
+
+\paragraph{Conditional properties.}
+If every anchor inequality holds, the actual residual belongs to the nonempty intersection and $|\widehat y-y|\leq R(c)$. The midpoint minimizes the largest absolute error over that interval because it equalizes the two endpoint distances. This conditional minimax property does not imply the smallest empirical MAE. Projection satisfies $|e-\clip(0,\ell,u)|\leq|e|$ when $e\in[\ell,u]$: for a positive interval it subtracts $\ell$, for a negative interval it subtracts $u$, and for a zero-containing interval it changes nothing. This is a standard interval-geometric fact. It does not apply outside the assumed interval.
+
+A conditional assurance flag at tolerance $\tau$ requires a noncontradictory raw intersection and $R(c)\leq\tau$. It is not a calibrated probability. If a separate justified physical reference bound $|y-C|\leq u_{\rm ref}$ were known, the triangle inequality would yield $|\widehat y-C|\leq R(c)+u_{\rm ref}$. The released data do not establish those exposure-level hard bounds or their dependence. Reference-relative error sets must therefore not be identified with certified measurement uncertainty \cite{jcgm100,jcgm200}.
+

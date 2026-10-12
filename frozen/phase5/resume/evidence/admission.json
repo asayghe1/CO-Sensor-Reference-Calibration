@@ -1,0 +1,12 @@
+{
+  "status": "PASS_REDUCED_LATE_CORE_ESTIMAND",
+  "excluded_sessions": [
+    3
+  ],
+  "reservations_unchanged": true,
+  "full_transient_kinetics_eligible": false,
+  "protocol_sha256": "5b2513972dbd256622d608e06d19e457c1e99b1e17cd7d90b5961d079ebeb5af",
+  "prior_prediction_results_seen": false,
+  "metadata_audit_seen": true,
+  "official_digest_match": null
+}

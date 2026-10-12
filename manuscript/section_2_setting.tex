@@ -1,0 +1,55 @@
+\section{Experimental measurement setting}\label{sec:setting}
+\subsection{Public measurements and reference quantity}
+The UCI487 release contains measurements from fourteen temperature-modulated MOX channels: seven Figaro TGS3870-A04 units and seven FIS SB-500-12 units \cite{uci487}. The shared chamber was exposed to CO in humid synthetic air. The documented protocol uses ten concentrations over 0--20 ppm, with ten repetitions per concentration and randomized humidity. Each file represents one acquisition session. The nominal protocol begins with a 900 s purge followed by 100 sequential 900 s exposure blocks. A session lasts approximately 25 h; the session identifiers used below are not independent 24 h device lifetimes.
+
+The reference quantity in this paper is the released nominal chamber CO concentration in the stable late portion of each exposure. It is not an independently established, noiseless true concentration. The release describes mass-flow-controlled gas generation and a relative uncertainty below 5.5\% \cite{uci487}. That statement alone does not specify per-exposure hard bounds, coverage conventions, or correlated reference errors. Accordingly, reported errors and interval containment are reference-relative. No certified total measurement uncertainty or regulatory performance threshold is inferred. The underlying 2018 studies provide the original experimental and detection-limit context \cite{burgues2018linear,burgues2018opls}; the present reduction is not a reproduction of their detection-limit estimators.
+
+\subsection{Exposure grouping and feature construction}
+The development channels are R1--R6 and R8--R13. Channels R7 and R14 remain excluded. The development analysis excluded reserved sessions D11--D13; their separately frozen temporal confirmation is reported in Section~\ref{sec:c5}. D3 was excluded in full before fitting because the recorded clock contains a backward step. No timing repair or performance-based replacement was applied.
+
+For nominal exposure $t\in\{1,\ldots,100\}$, the retained 240 s late core is
+\begin{equation}
+\mathcal{T}_t=[900t+600,\;900(t+1)-60)\quad\mathrm{s}.
+\label{eq:core}
+\end{equation}
+The initial purge is excluded. Grouping follows the nominal acquisition schedule, not each change in the released concentration field, so adjacent same-concentration exposures remain separate. The late-core restriction avoids nominal switching boundaries but does not establish complete washout or transient kinetics.
+
+The archived protocol defines six predictors for each sensor and exposure. Four are medians of the natural logarithm of resistance, expressed as $\ln(R/(1\,\mathrm{M}\Omega))$, within heater phases; the other two are the core medians of relative humidity and temperature. The resistance convention is the natural logarithm of the stored numerical resistance in M$\Omega$. The phases are:
+\begin{equation}
+\begin{aligned}
+\mathcal{P}_1 &: V_H>0.5\ \mathrm{V},\\
+\mathcal{P}_2 &: \text{low heater, }0\leq\Delta t_f<5\ \mathrm{s},\\
+\mathcal{P}_3 &: \text{low heater, }5\leq\Delta t_f<15\ \mathrm{s},\\
+\mathcal{P}_4 &: \text{low heater, }\Delta t_f\geq15\ \mathrm{s},
+\end{aligned}
+\label{eq:phases}
+\end{equation}
+where $\Delta t_f$ is elapsed recorded time since the measured heater falling edge. The phase origin is not reconstructed from an assumed perfectly uniform sample rate. The release describes a nominal 3.5 Hz sampling rate; the reduction uses recorded timestamps and measured transitions.
+
+The recorded eligibility rules require at least 500 rows in the late core, at least ten rows in each phase, finite required values, positive resistance, a core gap below 5 s, a complete nominal exposure block, and a constant released CO value within the core. Reference constancy is an isolated grouping check, not a predictor. Flow, injected concentration, released CO, day identifier, exposure identifier, and elapsed recording time are not regression inputs. All simultaneous channel views of an exposure receive the same temporal role.
+
+\subsection{Upstream models and correlated peer estimates}
+Individual sensor models were fitted with training-only scaling. The primary random forest (RF) configuration contains 100 trees, maximum depth 5, minimum leaf size 5, and seed 487. Ordinary least squares (OLS) and ridge regression with penalty 10 are retained only as upstream-model sensitivities. No alternative model is promoted after inspecting its assessment performance.
+
+Let $p_{i,d,t}$ denote the concentration predicted by the individually calibrated model of sensor $i$ on session $d$, exposure $t$. For each omitted-unit peer configuration $h$, five other development sensors from the same family form the peer estimate
+\begin{equation}
+m_{h,d,t}=\med_{i\in\mathcal S_h}p_{i,d,t},\qquad |\mathcal S_h|=5.
+\label{eq:median}
+\end{equation}
+There are six such peer configurations per family and twelve per exposure. They reuse sensors and the same chamber reference. A sensor omitted in one packet can appear as a calibrated peer in another packet, and the shared controller uses the union of all twelve calibrated units. This is therefore neither a strict uncalibrated-target deployment nor twelve independent array experiments. A family summary averages the errors of six peer configurations; it is not the error of one fused family concentration output.
+
+\begin{table}[H]
+\centering\small
+\caption{Chronological development roles. D3 is excluded from every fit. Initial correction calibration is disjoint from upstream fitting within each fold.}\label{tab:roles}
+\begin{tabular}{clll}
+\toprule
+Fold & Upstream fitting sessions & Correction calibration & Assessment \\
+\midrule
+1 & D1, D2, D4 & D5 & D6 \\
+2 & D1, D2, D4--D6 & D7 & D8 \\
+3 & D1, D2, D4--D8 & D9 & D10 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Each development assessment session contains 100 eligible shared exposures. The development comparison thus has 300 exposures and 3,600 correlated peer configuration outputs; confirmation has a separate 300 exposures and 3,600 outputs. The overlapping fit histories in Table~\ref{tab:roles} and the common apparatus limit any inference about independent devices or long-term populations. Settings were fixed before the corresponding replay, but later comparisons, including the affine comparator, were informed by earlier development results. The separately frozen later-session evaluation retains distinct fitting and initialization roles (Section~\ref{sec:c5}).

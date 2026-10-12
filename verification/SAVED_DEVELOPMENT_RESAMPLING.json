@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "contrast_rows": 37620,
+  "paired_loss_paths": 3135,
+  "archived_index_banks": 9,
+  "maximum_absolute_difference": 0.0,
+  "new_indices_generated": false,
+  "confirmation_bootstrap": false,
+  "models_or_paths_replayed": false
+}

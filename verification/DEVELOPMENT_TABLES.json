@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "rows_by_file": {
+    "table_historical.tex": 3,
+    "table_family.tex": 6,
+    "table_incremental.tex": 15,
+    "table_bounds.tex": 6,
+    "table_s_all.tex": 330,
+    "table_s_models.tex": 102,
+    "table_s_support.tex": 18,
+    "table_s_timing.tex": 25,
+    "table_s_cross.tex": 16,
+    "table_s_resampling.tex": 54
+  },
+  "method": "Original table formatting applied to frozen CSV cells; completed captions and prose retained."
+}

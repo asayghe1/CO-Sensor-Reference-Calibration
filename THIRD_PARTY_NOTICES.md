@@ -1,0 +1,7 @@
+# License scope and third-party notices
+
+- `LICENSE` applies to original project Python/shell code, release tooling, and repository documentation. MIT is the selected code license for this author-review release candidate; authors must confirm their authority to release it before publication. The license text is the standard [MIT license](https://opensource.org/license/mit).
+- Public UCI data and the derived numerical evidence carry the attribution and CC BY 4.0 terms in `DATA_LICENSE.md`.
+- `manuscript/unsrtnat.bst` is copyright 1993–2007 Patrick W. Daly and retains its original notice: LaTeX Project Public License version 1 or later. It is supplied unchanged. The upstream license is at [latex-project.org](https://www.latex-project.org/lppl/); the unchanged local license text is supplied as `licenses/LPPL-1.3c.tex` from the installed TeX distribution. Its public maintainer email in the copyright header is not a manuscript-author contact.
+- Manuscript prose, cover letter and title-page drafts are excluded from the MIT grant. Their publication and reuse terms remain subject to author/journal arrangements. Supplying editable review copies does not assert journal acceptance or all-author approval. Figures are derived research presentation assets; dataset attribution remains applicable.
+- NumPy, Matplotlib, scikit-learn, SciPy, joblib, pypdf, Python and TeX Live are dependencies, not vendored software. Their respective licenses remain with those projects. No environments, package caches or third-party model weights are bundled.

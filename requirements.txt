@@ -1,0 +1,5 @@
+# Evidence-only scoring, saved-index checks, figure rendering, PDF text checks.
+# Tested with Python 3.12.3. Models are never loaded by the release runner.
+numpy==2.5.4
+matplotlib==3.11.2
+pypdf==6.20.0

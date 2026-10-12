@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "tests": 8,
+  "command": "python -m unittest discover -s tests -v",
+  "behaviors": [
+    "lossless hash-verified expansion",
+    "modified predictions rejected",
+    "manifest parent traversal rejected",
+    "failed retry replaces stale PASS",
+    "optimized Python rejected",
+    "private paths inside compressed evidence detected",
+    "credential filenames detected without printing content",
+    "raw session CSV filenames detected"
+  ]
+}

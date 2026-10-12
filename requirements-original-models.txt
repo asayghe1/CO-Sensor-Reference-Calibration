@@ -1,0 +1,7 @@
+# Optional historical source environment; unnecessary for evidence-only reproduction.
+# Installing these dependencies does not authorize running historical fitting/replay.
+-r requirements.txt
+scikit-learn==1.9.1
+scipy==1.18.1
+joblib==1.6.0
+threadpoolctl==3.7.0

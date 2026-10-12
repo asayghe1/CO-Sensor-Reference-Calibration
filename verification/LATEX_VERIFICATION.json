@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "documents": {
+    "main": {
+      "pages": 20,
+      "warnings": [],
+      "author_metadata": "PASS"
+    },
+    "supplement": {
+      "pages": 23,
+      "warnings": [],
+      "author_metadata": "PASS"
+    },
+    "title_page": {
+      "pages": 1,
+      "warnings": [],
+      "author_metadata": "PASS"
+    },
+    "cover_letter_draft": {
+      "pages": 1,
+      "warnings": [],
+      "author_metadata": "PASS"
+    },
+    "highlights_draft": {
+      "pages": 1,
+      "warnings": [],
+      "author_metadata": "PASS"
+    }
+  },
+  "numbered_references": 17,
+  "citation_numbering_matches": true,
+  "full_page_raster_inspection": false,
+  "limitation": "Compiler, extracted-text and metadata checks were completed; full rendered-page inspection was not available in this environment."
+}

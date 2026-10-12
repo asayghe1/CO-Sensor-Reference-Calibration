@@ -1,0 +1,116 @@
+\section{Information-matched calibration comparison}\label{sec:methods}
+\subsection{Three distinct effects}
+Let $\Loss(E,\pi,B)$ be a reported loss for estimator $E$, reference schedule $\pi$, and additional budget $B$, evaluated on the same exposure universe. Lower values are preferable. Let $E_{\rm raw}$ be unchanged peer consensus. We distinguish
+\begin{align}
+H(E)&=\Loss(E,0)-\Loss(E_{\rm raw},0),\label{eq:historical}\\
+I(E,\pi,B)&=\Loss(E,\pi,B)-\Loss(E,0),\label{eq:incremental}\\
+S(E,\pi,B)&=\Loss(E,\pi,B)-\Loss(E,\pi_{\rm periodic},B).
+\label{eq:scheduling}
+\end{align}
+Here $H$ measures the effect of historical correction, $I$ the incremental effect of additional reference access for the same estimator, and $S$ the schedule contrast at a matched positive budget. At $B=0$, all schedules coincide. The identity
+\begin{equation}
+\Loss(E,\pi,B)-\Loss(E_{\rm raw},0)=H(E)+I(E,\pi,B)
+\label{eq:decomp}
+\end{equation}
+shows why an advantage over uncorrected consensus does not establish an advantage from additional checks. Equation~\eqref{eq:decomp} is a reporting identity, not a novel theorem or physical causal decomposition. It is applied separately to MAE and tolerance exceedance, because their directions need not agree.
+
+\subsection{Permitted information and reference accounting}
+Within a session, suppress $d$ for clarity. Let $a_t\in\{0,1\}$ denote a reference request and $\mathcal A_t=\{j<t:a_j=1\}$. Before the current reference is revealed, the permissible information is
+\begin{equation}
+\mathcal F_t^- =\sigma\!\left(\mathcal D_{\rm fit},\mathcal D_{\rm cal},
+O_{1:t},\{(j,y_j):j\in\mathcal A_t\},\xi,N,B\right),
+\label{eq:filtration}
+\end{equation}
+where $O_{1:t}$ contains allowed current and past sensor-derived observables, $\xi$ fixes schedule randomness, and $N=100$ is the known horizon. Current and future reference labels and future observables are excluded. The point estimates, intervals, and decision $a_t$ are frozen before the current $y_t$ can be requested. A revealed value changes only subsequent predictions.
+
+One check reveals the common chamber reference for every simultaneous peer configuration and is charged once, not once per sensor. Historical fitting labels and the 100 designated correction-calibration pairs are equally available to all methods. Development uses D5, D7 and D9 for D6, D8 and D10, respectively. Confirmation uses the same D10 calibration for each of D11, D12 and D13. Thus $B=0$ is zero \emph{additional} reference access, not zero total calibration effort. Each policy, budget, random seed, and session has a separate replay. A query by one policy cannot supply a free label to another.
+
+The reference is assumed to become available before the next exposure. The experimental archive did not physically acquire references on demand: the replay controls access to authentic released labels. Actual reference latency, cost, and instrumentation are outside the measured experiment. Each development replay resets to its designated D5/D7/D9 calibration; each confirmation replay resets independently to the identical D10 initialization, with no rolling recalibration or label carry between confirmation sessions. A request made after the last prediction remains charged but cannot improve any prediction within that completed session.
+
+\subsection{Historical offset and inverse affine correction}\label{sec:affine}
+For a fixed peer configuration, let $m_j$ be historical peer consensus and $y_j$ its reference. The offset comparator predicts $m_t+\beta$ and minimizes
+\begin{equation}
+\sum_{j\in\mathcal D_{\rm cal}}(y_j-m_j-\beta)^2+\beta^2.
+\end{equation}
+The affine comparator uses the historical mean $\mu$ and population standard deviation $s$ of $m_j$, and sets $x_t=(m_t-\mu)/s$. If $s<10^{-8}$, it is replaced by 1 and flagged. With $\phi_t=(x_t,1)^\top$ and $\theta=(\delta,\beta)^\top$, the predictor and objective are
+\begin{align}
+\widehat y_t&=m_t+\phi_t^\top\theta,\label{eq:affinepred}\\
+\theta_0&=\arg\min_\theta
+\left\{\sum_{j=1}^{100}(y_j-m_j-\phi_j^\top\theta)^2+
+\theta^\top\theta\right\}.
+\label{eq:ridgeobjective}
+\end{align}
+Regularization is fixed at 1 in the stated normalized coordinates. Initialization before assimilating historical observations is $\theta=0$ and $P=I$. For every permitted historical pair, and subsequently only after a purchased current reference, the recursive least-squares update is
+\begin{align}
+k_j&=\frac{P\phi_j}{1+\phi_j^\top P\phi_j},\\
+\theta^+&=\theta+k_j[(y_j-m_j)-\phi_j^\top\theta],\\
+P^+&=P-k_j\phi_j^\top P.
+\label{eq:rls}
+\end{align}
+The implementation symmetrizes the numerical matrix. Nonpositive or nonfinite denominators and invalid coefficient/covariance updates are recorded and retain the last finite state; a nonfinite point prediction falls back to consensus. The offset estimator uses the same construction with scalar feature $\phi=1$. The archived correction reports no actual numerical-update failures or initial rank-deficiency flags in its primary comparison; such checks do not establish physical parameter identifiability.
+
+The original cumulative estimator ($\lambda=1$) remains primary. A declared development extension uses $\lambda=.95$ as comparator and $.90$ as sensitivity, fixed before these new scores. Historical assimilation always uses $\lambda=1$, giving an identical B0 state. At a purchased reference only, replace the gain denominator by $\lambda+\phi^\top P\phi$ and set $P^+=(P-k\phi^\top P)/\lambda$. After $k$ purchases, old information and the original ridge term are discounted by $\lambda^k$: $.95^{20}\simeq.36$ and $.90^{20}\simeq.12$. This is information weighting, not a fraction of prediction influence. Nonzero gains also occur for $\lambda=1$; the actual update depends on leverage and innovation. Coefficient changes, information matrices and purchased-regressor leverage are archived. Recursive identification is established methodology \cite{ljung1983}. This inverse correction is not a forward physical gain/offset model.
+
+\subsection{Contextual residual envelopes}\label{sec:envelopes}
+Let $e_{h,t}=m_{h,t}-y_t$ be the uncorrected reference-relative residual. Context $z_{h,t}$ is the vector $(\mathrm{RH}_t,T_t,m_{h,t})$ standardized with means and population standard deviations from the designated calibration session: D5/D7/D9 for development D6/D8/D10, and D10 independently for confirmation D11/D12/D13. A zero standard deviation is replaced by 1. For a historical anchor $j$, its exposure age origin is $s_j=0$ and its historical indicator is $H_j=1$. A purchased anchor has $s_j=j$ and $H_j=0$.
+
+The model assumes, conditionally, that every eligible anchor satisfies
+\begin{align}
+|e_{h,t}-e_{h,j}|&\leq w_{h,jt},\label{eq:anchor}\\
+w_{h,jt}&=\epsilon+L_h\|z_{h,t}-z_{h,j}\|_2+
+\rho(t-s_j)+\gamma H_j.
+\label{eq:w}
+\end{align}
+The fixed primary allowances are $\epsilon=0.1$ ppm, $\rho=0.01$ ppm per exposure, and $\gamma=0.5$ ppm. They are residual, exposure-age, and inter-session allowances, not certified uncertainty components or identified physical aging rates. With $d_{jk}=\|z_{h,j}-z_{h,k}\|_2$ and $v_+=\max(v,0)$, the contextual slope is
+\begin{equation}
+L_h=\max_{j<k:d_{jk}>0}
+\frac{(|e_{h,j}-e_{h,k}|-2\epsilon)_+}{d_{jk}}.
+\label{eq:slope}
+\end{equation}
+The maximum uses the 100 historical calibration errors. Excess residual difference at zero contextual distance raises incompatibility. When no positive pairwise distance exists and no incompatibility is present, the recorded implementation sets $L_h=0$. The two-endpoint slack in Eq.~\eqref{eq:slope} does not derive the one-anchor future assumption in Eq.~\eqref{eq:anchor}. Finite historical consistency cannot establish a globally valid future slope, particularly for discontinuous RF predictions. These envelope and noise-slack constructions are established components \cite{calliess2017,walter1990}.
+
+Let $\mathcal J_t$ contain all historical anchors and strictly earlier purchased anchors. Their raw intersection is
+\begin{equation}
+\ell_{h,t}=\max_{j\in\mathcal J_t}(e_{h,j}-w_{h,jt}),\qquad
+u_{h,t}=\min_{j\in\mathcal J_t}(e_{h,j}+w_{h,jt}).
+\label{eq:intersection}
+\end{equation}
+For $\ell\leq u$, a correction $c$ gives $\widehat y=m-c$, the same underlying concentration set $[m-u,m-\ell]$, and symmetric radius
+\begin{equation}
+R(c)=\max\{|\ell-c|,|u-c|\}.
+\label{eq:radius}
+\end{equation}
+The three centers are $c=0$ (unchanged), $c=(\ell+u)/2$ (midpoint), and $c=\clip(0,\ell,u)$ (zero-preserving projection). The radius must be recomputed for its own center; the midpoint radius cannot be attached to another point estimate.
+
+A contradictory raw intersection ($\ell>u$) uses a descriptive hull for the midpoint and unchanged consensus for projection; neither receives assurance. An assurance flag requires a noncontradictory intersection and its own radius $R(c)\leq\tau$. Conditional properties and fallback definitions are in Supplement S2. These sets are conditional residual bounds, without a calibrated physical coverage probability.
+
+\subsection{Reference schedules and the shadow controller}\label{sec:schedules}
+Each session has additional budget $B\in\{0,5,10,20\}$. For $B=0$, the reference set is empty. For $B>0$, periodic queries use zero-based indices $\lfloor(k+0.5)N/B\rfloor$, $k=0,\ldots,B-1$. Random queries select a uniform $B$-element subset before replay, using all seeds 487--496 without selecting a favorable seed.
+
+For RF, the confidence score is the maximum across peer configurations of mean peer tree standard deviation normalized by its historical median, with a 0.1 ppm floor. The OLS/ridge sensitivities use the disclosed peer median absolute deviation proxy. The envelope-driven score is
+\begin{equation}
+V_t=\max_h\frac{(u_{h,t}-\ell_{h,t})/2}{q_h},
+\label{eq:score}
+\end{equation}
+where $q_h$ is the historical 90\% absolute-residual order statistic, with index $\lceil0.9(n+1)\rceil=91$ for $n=100$, floored at 0.1 ppm. A contradiction maps to $10^{12}$. Historical envelope scores are initialized from leave-one-out anchor intersections, while the slope and normalizations retain the complete historical set. This initialization is a heuristic, not an independent probability calibration.
+
+Let $b_t=B-\sum_{j<t}a_j$ and $H_t=N-t+1$. An adaptive policy compares its score with the empirical higher-order quantile at $1-b_t/H_t$ of its historical and previously recorded score history. Strict exceedance requests a check while budget remains; equality does not. A check is forced when $b_t=H_t>0$, ensuring exact budget expenditure. No future score ranking is used.
+
+The envelope algorithm generates the original shared masks; all correction estimators consume those saved masks. One additional information-driven controller uses the fixed $\lambda=.95$ driver and score $\max_h\phi_{h,t}^\top P_{h,t}\phi_{h,t}$. This is an unscaled leverage/information proxy, not a physical prediction variance. Its history starts with the 100 historical regressors scored using the initialized driver matrix, then appends pre-query current scores. It uses the same quantile and forcing rule. Each model/day/budget has one distinct saved native mask, shared by every evaluated estimator. The $.95$ estimator on its own mask is a coupled comparator; other lambdas on that mask are fixed-schedule ablations. No scheduling variant was chosen by its outcome.
+
+\begin{table}[H]
+\centering\small
+\caption{Prediction-before-reference replay for one policy, budget, seed, and session.}\label{tab:causal}
+\begin{tabularx}{\linewidth}{@{}rY@{}}
+\toprule
+Step & Operation \\
+\midrule
+1 & Initialize every point estimator, normalization, and shadow-controller state from the same permitted historical information. \\
+2 & At exposure $t$, reveal only the current permitted observables and previously purchased references. \\
+3 & Compute the shadow score, query decision, all point estimates, intervals, and diagnostic flags. Persist these pre-query outputs. \\
+4 & If the frozen decision requests a reference, debit one shared check and reveal $y_t$ to this run only. \\
+5 & Update the shadow controller and applicable estimators for $t+1$ onward. Never score $y_t$ as its own prediction. \\
+6 & Evaluate saved predictions against the complete eligible reference layer only after replay. Reset to historical initialization for the next session. \\
+\bottomrule
+\end{tabularx}
+\end{table}

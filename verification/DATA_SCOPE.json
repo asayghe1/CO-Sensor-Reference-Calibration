@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "development_feature_records": 10800,
+  "physical_units": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "development_feature_days": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "reserved_raw_payloads_included": false,
+  "UCI270_dependency": false,
+  "protocol_hashes": {
+    "frozen/co_revision_execution_v2/work/PROTOCOL.v2.md": "6163d54d660beaef501786d5cf3869544f0cd5160feb5092ace5065174ab0300",
+    "frozen/co_submission_finish_v1/C5_FROZEN_PROTOCOL.md": "4de22fff8678773f3fb3ba23198431947efe3c54145b8452ddec2ebf036c40bc"
+  },
+  "public_dataset_dependency": "External optional raw archive; not required for saved-evidence reproduction."
+}

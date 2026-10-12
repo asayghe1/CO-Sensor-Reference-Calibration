@@ -1,0 +1,240 @@
+{
+  "scope": "Lossless wide CSV views of saved evidence; no inference or scientific change",
+  "rows": 1900800,
+  "files": [
+    {
+      "path": "predictions/development/gamma2_OLS_D10.csv.gz",
+      "rows": 48000,
+      "bytes": 1754986,
+      "sha256": "48c246fb7dfe25a28d11159a13ad241dd858368643cef552a6995764d4428b78"
+    },
+    {
+      "path": "predictions/development/gamma2_OLS_D6.csv.gz",
+      "rows": 48000,
+      "bytes": 1797866,
+      "sha256": "926b4684fe1328cbfb0ff0c81e84d0f1e7eb6dff56ac6df9d447614386b1dff6"
+    },
+    {
+      "path": "predictions/development/gamma2_OLS_D8.csv.gz",
+      "rows": 48000,
+      "bytes": 1823053,
+      "sha256": "23def98cf3e39f27755ec241110d1f870951d1c6da22d807bfdba298e6c6dca5"
+    },
+    {
+      "path": "predictions/development/gamma2_RF_D10.csv.gz",
+      "rows": 48000,
+      "bytes": 1778732,
+      "sha256": "71b25449d5c27442376438057d6a47f9ef8b0cd911c56e579feaef485d03103b"
+    },
+    {
+      "path": "predictions/development/gamma2_RF_D6.csv.gz",
+      "rows": 48000,
+      "bytes": 1788851,
+      "sha256": "4ca14df100c26c2a832a14d69b01b4d0a6471488f18bbb03e666c5764cbb0a2c"
+    },
+    {
+      "path": "predictions/development/gamma2_RF_D8.csv.gz",
+      "rows": 48000,
+      "bytes": 1729634,
+      "sha256": "ec9ef4b4c70cbf32f37e4f71307dd089ea15f1c0be31b27da782fab2f5cd8e7e"
+    },
+    {
+      "path": "predictions/development/gamma2_Ridge_D10.csv.gz",
+      "rows": 48000,
+      "bytes": 1782356,
+      "sha256": "1fe068ed0ac9700c3fe35bdd3cbfa8c86d933590126b96df1b498f3625a71a15"
+    },
+    {
+      "path": "predictions/development/gamma2_Ridge_D6.csv.gz",
+      "rows": 48000,
+      "bytes": 1814680,
+      "sha256": "a60c53f95da54fc546de56896f36f8a5f4e49518a37205105af6bea2cb628200"
+    },
+    {
+      "path": "predictions/development/gamma2_Ridge_D8.csv.gz",
+      "rows": 48000,
+      "bytes": 1802595,
+      "sha256": "cb23f013acf89bb7ecc8f186ccd7ffd196ae3e0f6147fba2e367894ebf87e7db"
+    },
+    {
+      "path": "predictions/development/primary_OLS_D10.csv.gz",
+      "rows": 49200,
+      "bytes": 2133085,
+      "sha256": "625eb48961d42e7810c58610cb0805587a510b2d58b37b794d36f04b1125fb35"
+    },
+    {
+      "path": "predictions/development/primary_OLS_D6.csv.gz",
+      "rows": 49200,
+      "bytes": 2165401,
+      "sha256": "fce7b990231440d4d8b7c7ba914c4d21be4b61dab8eccbad5bc15a3e0ae859c3"
+    },
+    {
+      "path": "predictions/development/primary_OLS_D8.csv.gz",
+      "rows": 49200,
+      "bytes": 2198044,
+      "sha256": "efabd994a15357ffef9ecc75e8f694a00fd3cc684d4204c933b7502ff882d94e"
+    },
+    {
+      "path": "predictions/development/primary_RF_D10.csv.gz",
+      "rows": 51600,
+      "bytes": 3708508,
+      "sha256": "e22f9e65d9312becc948dfc025b776408b277d346d7237cbfa33876b9c1b1816"
+    },
+    {
+      "path": "predictions/development/primary_RF_D6.csv.gz",
+      "rows": 51600,
+      "bytes": 3723669,
+      "sha256": "9380a750cfef1955e57b14c0a72726e2cead12708dcc50a2a9719bbc4e8a4dca"
+    },
+    {
+      "path": "predictions/development/primary_RF_D8.csv.gz",
+      "rows": 51600,
+      "bytes": 3623971,
+      "sha256": "2ffc00179982378c510e312a4d35d5d2ab796d92b5d1f80d885b1661a344ff44"
+    },
+    {
+      "path": "predictions/development/primary_Ridge_D10.csv.gz",
+      "rows": 49200,
+      "bytes": 2156955,
+      "sha256": "14f64cca17eac5f2f823297a703203521f64871e4b87d44f5cd8ca8d10a7421f"
+    },
+    {
+      "path": "predictions/development/primary_Ridge_D6.csv.gz",
+      "rows": 49200,
+      "bytes": 2187043,
+      "sha256": "17dafefd577620422603a6d0ebc3b352433ea6a5198ee35cdf5caea78d775db6"
+    },
+    {
+      "path": "predictions/development/primary_Ridge_D8.csv.gz",
+      "rows": 49200,
+      "bytes": 2183632,
+      "sha256": "0fb925b8a8e5a22f87561df156a4e3199c66f0d2c9cd83488b5e81ec3baf227a"
+    },
+    {
+      "path": "predictions/development/rho0_OLS_D10.csv.gz",
+      "rows": 48000,
+      "bytes": 1758344,
+      "sha256": "ef73bc0150ad02194bbe1be324ea95d3c2cc1293f467ba3093de4dc61f5bada4"
+    },
+    {
+      "path": "predictions/development/rho0_OLS_D6.csv.gz",
+      "rows": 48000,
+      "bytes": 1795561,
+      "sha256": "c10297f028340f142e4e99ecc8b9f99de7c67680030462ea6791bdcb5e563b2c"
+    },
+    {
+      "path": "predictions/development/rho0_OLS_D8.csv.gz",
+      "rows": 48000,
+      "bytes": 1829302,
+      "sha256": "b258337ec8d0fa2db0fc438334b2e42fd5948bd344c2ea9e3c38fb7be7efc1ca"
+    },
+    {
+      "path": "predictions/development/rho0_RF_D10.csv.gz",
+      "rows": 48000,
+      "bytes": 1785346,
+      "sha256": "73c30072d0012650b6c13776fcddc0779ab39d620963ae27d9c5585d5ae809e9"
+    },
+    {
+      "path": "predictions/development/rho0_RF_D6.csv.gz",
+      "rows": 48000,
+      "bytes": 1799285,
+      "sha256": "ab5c66a9dac28cf15c480165e6d171b0966e74623b03eab3040d8c2b9f061521"
+    },
+    {
+      "path": "predictions/development/rho0_RF_D8.csv.gz",
+      "rows": 48000,
+      "bytes": 1730042,
+      "sha256": "c9f7a9ba6c169697d2a4ab3cc2ee429ab38d129e576088fcc02c7a19da870ff8"
+    },
+    {
+      "path": "predictions/development/rho0_Ridge_D10.csv.gz",
+      "rows": 48000,
+      "bytes": 1781478,
+      "sha256": "2e87d9a69d52bb6626352a9c3cfbb82c0c24844fd36cdefc32a0411a7ac8922b"
+    },
+    {
+      "path": "predictions/development/rho0_Ridge_D6.csv.gz",
+      "rows": 48000,
+      "bytes": 1810477,
+      "sha256": "6df3f8cc9d45da8dabd566f524c136886bb7d24f5f7e5656430b282e58ac37ce"
+    },
+    {
+      "path": "predictions/development/rho0_Ridge_D8.csv.gz",
+      "rows": 48000,
+      "bytes": 1809338,
+      "sha256": "97a0191b8a79c368b496184f993fef801158a376c3e2972fbec24e7d4d125f36"
+    },
+    {
+      "path": "predictions/development/slope95_OLS_D10.csv.gz",
+      "rows": 48000,
+      "bytes": 1917906,
+      "sha256": "328d4289b97a81bcdf232d612f94fb82a51404423cf056267609a1ebc41256f0"
+    },
+    {
+      "path": "predictions/development/slope95_OLS_D6.csv.gz",
+      "rows": 48000,
+      "bytes": 1921315,
+      "sha256": "9e1c0eb83112e3e8bd308fbe0f4717e52a518309d52dcd992c4a183f2e3d2137"
+    },
+    {
+      "path": "predictions/development/slope95_OLS_D8.csv.gz",
+      "rows": 48000,
+      "bytes": 1923739,
+      "sha256": "5abdbfdaa69ae4dc63d7d99f65fb9afaccc1893fe01164a831a0dd8aacef909b"
+    },
+    {
+      "path": "predictions/development/slope95_RF_D10.csv.gz",
+      "rows": 48000,
+      "bytes": 1916699,
+      "sha256": "2094a3fbeb3aaa15fbce8692fc847824bf30b6bba1d10ae57514a29affb1e521"
+    },
+    {
+      "path": "predictions/development/slope95_RF_D6.csv.gz",
+      "rows": 48000,
+      "bytes": 1913850,
+      "sha256": "45af0518bd84813de684e99b6cd2b64b02d11a8b60b815c12a83fb073e2dda8f"
+    },
+    {
+      "path": "predictions/development/slope95_RF_D8.csv.gz",
+      "rows": 48000,
+      "bytes": 1895596,
+      "sha256": "26bb7328e0713545b34a34df3c0c5eaac969f8cb125f0c88517f72792a59808d"
+    },
+    {
+      "path": "predictions/development/slope95_Ridge_D10.csv.gz",
+      "rows": 48000,
+      "bytes": 1921514,
+      "sha256": "dc7ff2ecb11fea5a5062963986bfb90734b4731da738edc767032da57acf815e"
+    },
+    {
+      "path": "predictions/development/slope95_Ridge_D6.csv.gz",
+      "rows": 48000,
+      "bytes": 1927308,
+      "sha256": "7b6142358657a346122f89dd26528a0a97f13c5a661a613e791d6a232541c578"
+    },
+    {
+      "path": "predictions/development/slope95_Ridge_D8.csv.gz",
+      "rows": 48000,
+      "bytes": 1929116,
+      "sha256": "463bfa7366ef8d39250c26262a834b93195bb2faa8b3cc2b96ed9de8d0ee2b66"
+    },
+    {
+      "path": "predictions/confirmation/D11.csv.gz",
+      "rows": 51600,
+      "bytes": 3743267,
+      "sha256": "e97dd211856e8f92b7a60ca9f796d591b2b9063311d104bb6b7dcce140378a3c"
+    },
+    {
+      "path": "predictions/confirmation/D12.csv.gz",
+      "rows": 51600,
+      "bytes": 3695144,
+      "sha256": "3893de84f7597f83661cdc1bb2177b430832555ca0c393b51af951791511a993"
+    },
+    {
+      "path": "predictions/confirmation/D13.csv.gz",
+      "rows": 51600,
+      "bytes": 3669430,
+      "sha256": "0eda30f4f0762558ab3f0cc14d65180c4c8937f6bbae2c61832c4a90a2a78394"
+    }
+  ]
+}

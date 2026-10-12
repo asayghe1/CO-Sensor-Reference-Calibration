@@ -1,0 +1,63 @@
+\small\setlength{\tabcolsep}{4pt}
+\begin{longtable}{lllrrrrrr}
+\caption{Development-only conditional resampling sensitivity, B20 envelope/information schedules. All three session changes and block lengths retained; the complete endpoint/comparator grid is in the accompanying conditional-resampling CSV. Bounds condition on original fits, paths and references.}\label{tab:s_resampling}\\
+\toprule
+Scope & Estimator & Schedule & $L$ & $I$ MAE & Bounds & D6 & D8 & D10 \\ \midrule\endfirsthead
+\toprule
+Scope & Estimator & Schedule & $L$ & $I$ MAE & Bounds & D6 & D8 & D10 \\ \midrule\endhead
+\bottomrule\endfoot
+ALL & Affine $\lambda=1$ & Envelope & 5 & 0.0029 & [0.0003, 0.0061] & 0.0065 & 0.0015 & 0.0007 \\
+ALL & Affine $\lambda=1$ & Envelope & 10 & 0.0029 & [-0.0001, 0.0056] & 0.0065 & 0.0015 & 0.0007 \\
+ALL & Affine $\lambda=1$ & Envelope & 20 & 0.0029 & [-0.0003, 0.0050] & 0.0065 & 0.0015 & 0.0007 \\
+ALL & Affine $\lambda=1$ & Information & 5 & 0.0030 & [-0.0007, 0.0069] & 0.0055 & 0.0008 & 0.0026 \\
+ALL & Affine $\lambda=1$ & Information & 10 & 0.0030 & [-0.0007, 0.0065] & 0.0055 & 0.0008 & 0.0026 \\
+ALL & Affine $\lambda=1$ & Information & 20 & 0.0030 & [-0.0010, 0.0054] & 0.0055 & 0.0008 & 0.0026 \\
+ALL & Affine $\lambda=.95$ & Envelope & 5 & 0.0056 & [0.0007, 0.0113] & 0.0122 & 0.0028 & 0.0019 \\
+ALL & Affine $\lambda=.95$ & Envelope & 10 & 0.0056 & [-0.0001, 0.0109] & 0.0122 & 0.0028 & 0.0019 \\
+ALL & Affine $\lambda=.95$ & Envelope & 20 & 0.0056 & [-0.0005, 0.0097] & 0.0122 & 0.0028 & 0.0019 \\
+ALL & Affine $\lambda=.95$ & Information & 5 & 0.0070 & [0.0009, 0.0136] & 0.0156 & 0.0027 & 0.0027 \\
+ALL & Affine $\lambda=.95$ & Information & 10 & 0.0070 & [0.0005, 0.0129] & 0.0156 & 0.0027 & 0.0027 \\
+ALL & Affine $\lambda=.95$ & Information & 20 & 0.0070 & [0.0002, 0.0115] & 0.0156 & 0.0027 & 0.0027 \\
+ALL & Affine $\lambda=.90$ & Envelope & 5 & 0.0115 & [0.0023, 0.0220] & 0.0242 & 0.0050 & 0.0053 \\
+ALL & Affine $\lambda=.90$ & Envelope & 10 & 0.0115 & [0.0008, 0.0212] & 0.0242 & 0.0050 & 0.0053 \\
+ALL & Affine $\lambda=.90$ & Envelope & 20 & 0.0115 & [0.0000, 0.0194] & 0.0242 & 0.0050 & 0.0053 \\
+ALL & Affine $\lambda=.90$ & Information & 5 & 0.0200 & [0.0074, 0.0336] & 0.0502 & 0.0060 & 0.0037 \\
+ALL & Affine $\lambda=.90$ & Information & 10 & 0.0200 & [0.0056, 0.0337] & 0.0502 & 0.0060 & 0.0037 \\
+ALL & Affine $\lambda=.90$ & Information & 20 & 0.0200 & [0.0037, 0.0330] & 0.0502 & 0.0060 & 0.0037 \\
+Figaro & Affine $\lambda=1$ & Envelope & 5 & 0.0064 & [0.0020, 0.0118] & 0.0111 & 0.0040 & 0.0040 \\
+Figaro & Affine $\lambda=1$ & Envelope & 10 & 0.0064 & [0.0016, 0.0106] & 0.0111 & 0.0040 & 0.0040 \\
+Figaro & Affine $\lambda=1$ & Envelope & 20 & 0.0064 & [0.0019, 0.0102] & 0.0111 & 0.0040 & 0.0040 \\
+Figaro & Affine $\lambda=1$ & Information & 5 & 0.0047 & [-0.0018, 0.0115] & 0.0101 & 0.0052 & -0.0013 \\
+Figaro & Affine $\lambda=1$ & Information & 10 & 0.0047 & [-0.0018, 0.0104] & 0.0101 & 0.0052 & -0.0013 \\
+Figaro & Affine $\lambda=1$ & Information & 20 & 0.0047 & [-0.0013, 0.0085] & 0.0101 & 0.0052 & -0.0013 \\
+Figaro & Affine $\lambda=.95$ & Envelope & 5 & 0.0105 & [0.0024, 0.0200] & 0.0204 & 0.0056 & 0.0055 \\
+Figaro & Affine $\lambda=.95$ & Envelope & 10 & 0.0105 & [0.0017, 0.0184] & 0.0204 & 0.0056 & 0.0055 \\
+Figaro & Affine $\lambda=.95$ & Envelope & 20 & 0.0105 & [0.0016, 0.0173] & 0.0204 & 0.0056 & 0.0055 \\
+Figaro & Affine $\lambda=.95$ & Information & 5 & 0.0125 & [0.0006, 0.0248] & 0.0293 & 0.0090 & -0.0009 \\
+Figaro & Affine $\lambda=.95$ & Information & 10 & 0.0125 & [0.0005, 0.0232] & 0.0293 & 0.0090 & -0.0009 \\
+Figaro & Affine $\lambda=.95$ & Information & 20 & 0.0125 & [0.0011, 0.0207] & 0.0293 & 0.0090 & -0.0009 \\
+Figaro & Affine $\lambda=.90$ & Envelope & 5 & 0.0196 & [0.0041, 0.0366] & 0.0404 & 0.0083 & 0.0100 \\
+Figaro & Affine $\lambda=.90$ & Envelope & 10 & 0.0196 & [0.0026, 0.0341] & 0.0404 & 0.0083 & 0.0100 \\
+Figaro & Affine $\lambda=.90$ & Envelope & 20 & 0.0196 & [0.0019, 0.0321] & 0.0404 & 0.0083 & 0.0100 \\
+Figaro & Affine $\lambda=.90$ & Information & 5 & 0.0379 & [0.0139, 0.0639] & 0.0964 & 0.0151 & 0.0023 \\
+Figaro & Affine $\lambda=.90$ & Information & 10 & 0.0379 & [0.0103, 0.0640] & 0.0964 & 0.0151 & 0.0023 \\
+Figaro & Affine $\lambda=.90$ & Information & 20 & 0.0379 & [0.0064, 0.0637] & 0.0964 & 0.0151 & 0.0023 \\
+FIS & Affine $\lambda=1$ & Envelope & 5 & -0.0006 & [-0.0025, 0.0014] & 0.0018 & -0.0010 & -0.0026 \\
+FIS & Affine $\lambda=1$ & Envelope & 10 & -0.0006 & [-0.0030, 0.0016] & 0.0018 & -0.0010 & -0.0026 \\
+FIS & Affine $\lambda=1$ & Envelope & 20 & -0.0006 & [-0.0037, 0.0007] & 0.0018 & -0.0010 & -0.0026 \\
+FIS & Affine $\lambda=1$ & Information & 5 & 0.0012 & [-0.0006, 0.0035] & 0.0009 & -0.0035 & 0.0064 \\
+FIS & Affine $\lambda=1$ & Information & 10 & 0.0012 & [-0.0010, 0.0036] & 0.0009 & -0.0035 & 0.0064 \\
+FIS & Affine $\lambda=1$ & Information & 20 & 0.0012 & [-0.0013, 0.0032] & 0.0009 & -0.0035 & 0.0064 \\
+FIS & Affine $\lambda=.95$ & Envelope & 5 & 0.0007 & [-0.0024, 0.0042] & 0.0040 & -0.0000 & -0.0018 \\
+FIS & Affine $\lambda=.95$ & Envelope & 10 & 0.0007 & [-0.0031, 0.0045] & 0.0040 & -0.0000 & -0.0018 \\
+FIS & Affine $\lambda=.95$ & Envelope & 20 & 0.0007 & [-0.0039, 0.0029] & 0.0040 & -0.0000 & -0.0018 \\
+FIS & Affine $\lambda=.95$ & Information & 5 & 0.0016 & [-0.0008, 0.0044] & 0.0020 & -0.0035 & 0.0062 \\
+FIS & Affine $\lambda=.95$ & Information & 10 & 0.0016 & [-0.0014, 0.0047] & 0.0020 & -0.0035 & 0.0062 \\
+FIS & Affine $\lambda=.95$ & Information & 20 & 0.0016 & [-0.0019, 0.0042] & 0.0020 & -0.0035 & 0.0062 \\
+FIS & Affine $\lambda=.90$ & Envelope & 5 & 0.0035 & [-0.0018, 0.0096] & 0.0080 & 0.0018 & 0.0006 \\
+FIS & Affine $\lambda=.90$ & Envelope & 10 & 0.0035 & [-0.0028, 0.0102] & 0.0080 & 0.0018 & 0.0006 \\
+FIS & Affine $\lambda=.90$ & Envelope & 20 & 0.0035 & [-0.0038, 0.0076] & 0.0080 & 0.0018 & 0.0006 \\
+FIS & Affine $\lambda=.90$ & Information & 5 & 0.0020 & [-0.0017, 0.0061] & 0.0040 & -0.0031 & 0.0051 \\
+FIS & Affine $\lambda=.90$ & Information & 10 & 0.0020 & [-0.0024, 0.0070] & 0.0040 & -0.0031 & 0.0051 \\
+FIS & Affine $\lambda=.90$ & Information & 20 & 0.0020 & [-0.0032, 0.0060] & 0.0040 & -0.0031 & 0.0051 \\
+\end{longtable}\normalsize

@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "csv_checks": {
+    "AGGREGATE_METRICS.csv": {
+      "rows": 15336,
+      "maximum_absolute_difference": 0.0
+    },
+    "EXCEEDANCE_SHARES.csv": {
+      "rows": 2556,
+      "maximum_absolute_difference": 0.0
+    },
+    "INTERVAL_DIAGNOSTICS.csv": {
+      "rows": 27351,
+      "maximum_absolute_difference": 0.0
+    },
+    "METRICS_BY_CONFIGURATION.csv": {
+      "rows": 134460,
+      "maximum_absolute_difference": 0.0
+    },
+    "METRICS_BY_RUN_FAMILY_BAND_SUBSET.csv": {
+      "rows": 134460,
+      "maximum_absolute_difference": 0.0
+    },
+    "QUERY_TIMING_BY_RUN.csv": {
+      "rows": 1455,
+      "maximum_absolute_difference": 0.0
+    },
+    "SESSION_METRICS.csv": {
+      "rows": 46008,
+      "maximum_absolute_difference": 0.0
+    },
+    "SLOPE95_CROSSTAB.csv": {
+      "rows": 5760,
+      "maximum_absolute_difference": 0.0
+    },
+    "UPDATE_DIAGNOSTICS.csv": {
+      "rows": 546,
+      "maximum_absolute_difference": 0.0
+    },
+    "FALSE_ASSURANCE_AUDIT.csv": {
+      "rows": 82053,
+      "maximum_absolute_difference": 0.0
+    },
+    "FALSE_ASSURANCE_POOLED.csv": {
+      "rows": 9126,
+      "maximum_absolute_difference": 0.0
+    }
+  },
+  "runs": 1455,
+  "saved_prediction_scalars": 4482000,
+  "causal_events": 21900,
+  "saved_purchase_states": 113400,
+  "prediction_generation": false,
+  "state_records_without_explicit_update_success_flag": 113400,
+  "raw_data_access": false,
+  "note": "Legacy bound-sensitivity records have masks and arrays; detailed causal events exist for the revised primary branch. Full prequery prediction digests are reproduced for RF. OLS/ridge retained four of seven internally hashed estimators, so their original full prediction digests are preserved but not independently reconstructed."
+}

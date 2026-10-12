@@ -1,0 +1,6339 @@
+{
+  "scope": "Presentation only; each plotted nonzero data coordinate copied from an existing saved summary cell. Zero incremental B0 coordinates express the existing own-baseline identity. No metrics recomputed.",
+  "input_sha256": {
+    "AGGREGATE_METRICS.csv": "561e8b9fcb380acddcd132df798fdc01304ff17fc1e0684658f2ddf2f61a4549",
+    "SESSION_METRICS.csv": "dd778bc19bcb56777c50209ec0668309bdc169b779e6287473c6e0bcd5d44463",
+    "CONDITIONAL_RESAMPLING_EFFECTS.csv": "dbb29bf43eaac1ec72f3f43d77226598d78944d9ce2a2df0444667c47e14c524",
+    "C5_PRIMARY_TABLE.csv": "bb844ccf9ed72270522c2fa68d715dee07011699a144846cc302780f656d8fb0",
+    "C5_PRIMARY_SESSION_TABLE.csv": "1f9c60cceabc307abc695eb5d467f86e7fffe8309d0341b6ece2e207c75563ba"
+  },
+  "plotted_cells": [
+    {
+      "file": "AGGREGATE_METRICS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "Figaro",
+        "subset": "all",
+        "band": "ALL",
+        "estimator": "consensus",
+        "schedule": "none",
+        "budget": 0
+      },
+      "field": "mae",
+      "stored_value": "1.5289470417990894"
+    },
+    {
+      "file": "AGGREGATE_METRICS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "Figaro",
+        "subset": "all",
+        "band": "ALL",
+        "estimator": "affine",
+        "schedule": "none",
+        "budget": 0
+      },
+      "field": "mae",
+      "stored_value": "1.2741737738538288"
+    },
+    {
+      "file": "SESSION_METRICS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "Figaro",
+        "subset": "all",
+        "band": "ALL",
+        "estimator": "consensus",
+        "schedule": "none",
+        "budget": 0,
+        "session": "D6"
+      },
+      "field": "mae",
+      "stored_value": "1.690850471703208"
+    },
+    {
+      "file": "SESSION_METRICS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "Figaro",
+        "subset": "all",
+        "band": "ALL",
+        "estimator": "affine",
+        "schedule": "none",
+        "budget": 0,
+        "session": "D6"
+      },
+      "field": "mae",
+      "stored_value": "1.4228507895676268"
+    },
+    {
+      "file": "SESSION_METRICS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "Figaro",
+        "subset": "all",
+        "band": "ALL",
+        "estimator": "consensus",
+        "schedule": "none",
+        "budget": 0,
+        "session": "D8"
+      },
+      "field": "mae",
+      "stored_value": "1.311012597496794"
+    },
+    {
+      "file": "SESSION_METRICS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "Figaro",
+        "subset": "all",
+        "band": "ALL",
+        "estimator": "affine",
+        "schedule": "none",
+        "budget": 0,
+        "session": "D8"
+      },
+      "field": "mae",
+      "stored_value": "1.1138713422430655"
+    },
+    {
+      "file": "SESSION_METRICS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "Figaro",
+        "subset": "all",
+        "band": "ALL",
+        "estimator": "consensus",
+        "schedule": "none",
+        "budget": 0,
+        "session": "D10"
+      },
+      "field": "mae",
+      "stored_value": "1.5849780561972664"
+    },
+    {
+      "file": "SESSION_METRICS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "Figaro",
+        "subset": "all",
+        "band": "ALL",
+        "estimator": "affine",
+        "schedule": "none",
+        "budget": 0,
+        "session": "D10"
+      },
+      "field": "mae",
+      "stored_value": "1.285799189750794"
+    },
+    {
+      "file": "AGGREGATE_METRICS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "FIS",
+        "subset": "all",
+        "band": "ALL",
+        "estimator": "consensus",
+        "schedule": "none",
+        "budget": 0
+      },
+      "field": "mae",
+      "stored_value": "0.26974453018803973"
+    },
+    {
+      "file": "AGGREGATE_METRICS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "FIS",
+        "subset": "all",
+        "band": "ALL",
+        "estimator": "affine",
+        "schedule": "none",
+        "budget": 0
+      },
+      "field": "mae",
+      "stored_value": "0.2943485186230151"
+    },
+    {
+      "file": "SESSION_METRICS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "FIS",
+        "subset": "all",
+        "band": "ALL",
+        "estimator": "consensus",
+        "schedule": "none",
+        "budget": 0,
+        "session": "D6"
+      },
+      "field": "mae",
+      "stored_value": "0.29569234215057627"
+    },
+    {
+      "file": "SESSION_METRICS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "FIS",
+        "subset": "all",
+        "band": "ALL",
+        "estimator": "affine",
+        "schedule": "none",
+        "budget": 0,
+        "session": "D6"
+      },
+      "field": "mae",
+      "stored_value": "0.28472490210426266"
+    },
+    {
+      "file": "SESSION_METRICS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "FIS",
+        "subset": "all",
+        "band": "ALL",
+        "estimator": "consensus",
+        "schedule": "none",
+        "budget": 0,
+        "session": "D8"
+      },
+      "field": "mae",
+      "stored_value": "0.17573801644929907"
+    },
+    {
+      "file": "SESSION_METRICS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "FIS",
+        "subset": "all",
+        "band": "ALL",
+        "estimator": "affine",
+        "schedule": "none",
+        "budget": 0,
+        "session": "D8"
+      },
+      "field": "mae",
+      "stored_value": "0.2147209796622596"
+    },
+    {
+      "file": "SESSION_METRICS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "FIS",
+        "subset": "all",
+        "band": "ALL",
+        "estimator": "consensus",
+        "schedule": "none",
+        "budget": 0,
+        "session": "D10"
+      },
+      "field": "mae",
+      "stored_value": "0.3378032319642438"
+    },
+    {
+      "file": "SESSION_METRICS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "FIS",
+        "subset": "all",
+        "band": "ALL",
+        "estimator": "affine",
+        "schedule": "none",
+        "budget": 0,
+        "session": "D10"
+      },
+      "field": "mae",
+      "stored_value": "0.38359967410252305"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "periodic",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "-0.0007267769307656061"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "periodic",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "4.293024224545957e-06"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "periodic",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.010512410004530043"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "periodic",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.0001077281860291087"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "periodic",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.0013268533662038485"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "periodic",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.005319007798541514"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "periodic",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.0008765886274615041"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "periodic",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.0001370542168061985"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "periodic",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.008478855700803273"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "periodic",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.001411470350864423"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "periodic",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.0011769200767240123"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "periodic",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.017739366514245344"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "random",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.00035706981467105897"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "random",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.0013959194259596426"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "random",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.0017184163534872709"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "random",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.001304445887916249"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "random",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.0022322427864994113"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "random",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.002480878743304001"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "random",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.00016950629404403645"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "random",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.0006644374827246113"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "random",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.00019005249037664276"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "random",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.0004027427379471085"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "random",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.0012910780086549055"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "random",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.0024843178267811685"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "confidence",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.005015912803526015"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "confidence",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.007812371229479043"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "confidence",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.012482495079116385"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "confidence",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.0006714165803217205"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "confidence",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.006743165111769628"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "confidence",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.008427251937948146"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "confidence",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.0026718458892191466"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "confidence",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.0013982389844100702"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "confidence",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.009652305083173957"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "confidence",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.011704475941037176"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "confidence",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.01529570959225743"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "confidence",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.01936792821622705"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "envelope",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.0009408662825881013"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "envelope",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.0005287123919584916"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "envelope",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.002910360456819402"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "envelope",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.0026980792583729397"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "envelope",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.0042241227248411865"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "envelope",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.006484744552873606"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "envelope",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.0011376134139173932"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "envelope",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.0005956813612111742"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "envelope",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.0015164015209608401"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "envelope",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.0010130938245260285"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "envelope",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.0020423041877545376"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "envelope",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.0007299352966237593"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "rlsvar",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "-0.00024433031374984784"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "rlsvar",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.0014775085478899656"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "rlsvar",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.002958836247533503"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "rlsvar",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.00015095694677301757"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "rlsvar",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.002550605014401861"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "rlsvar",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.005482936248003452"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "rlsvar",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.0006507076861774344"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "rlsvar",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.0017028864690911427"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "rlsvar",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.0008325398933308302"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "rlsvar",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.00023324020184512683"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "rlsvar",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.00017903416017689327"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "rlsvar",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.0025610326012662265"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "periodic",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "-0.0008286705934877139"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "periodic",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "-5.870918356914458e-05"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "periodic",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.014607893805069347"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "periodic",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.00014226503528154362"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "periodic",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.0016662549507713465"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "periodic",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.010629582803440705"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "periodic",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.0010345365260153992"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "periodic",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.0006634294147869721"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "periodic",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.010002340413426411"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "periodic",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.0015937402897292863"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "periodic",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.001178953086691808"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "periodic",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.023191758198340916"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "random",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.00042658698610134604"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "random",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.0017093088860954057"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "random",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.002430063962177752"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "random",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.0014517188774664015"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "random",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.002866195608728209"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "random",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.004187932851458779"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "random",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.0002450460911078459"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "random",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.0006545155966939292"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "random",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.0005919489138402415"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "random",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.0004170040102702094"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "random",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.0016072154528640786"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "random",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.0036942079489147195"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "confidence",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.005697124735780688"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "confidence",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.00953635935996752"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "confidence",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.019579156124557958"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "confidence",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.0007454840284361842"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "confidence",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.009125710207127314"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "confidence",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.015408519471372157"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "confidence",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.0028566804153472495"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "confidence",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.0014767042498891434"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "confidence",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.012468524263107577"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "confidence",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.01348920976355863"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "confidence",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.018006663622886103"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "confidence",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.030860424639194136"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "envelope",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.0011716010324323582"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "envelope",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.0007230387315150981"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "envelope",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.005607665482745012"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "envelope",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.0029933817859521157"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "envelope",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.005842189958571989"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "envelope",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.01216533441312469"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "envelope",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.0014956249461220818"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "envelope",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.0007485041818329813"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "envelope",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.002776112060243281"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "envelope",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.0009742036347771227"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "envelope",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.0029245695821937135"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "envelope",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.001881549974867065"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "rlsvar",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "-0.00029065125248324287"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "rlsvar",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.002583858720145545"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "rlsvar",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.007009026225618582"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "rlsvar",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.0001597220920742503"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "rlsvar",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.005275271984638255"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "rlsvar",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.015649239513125954"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "rlsvar",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.0007568012107071109"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "rlsvar",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.0021715176955818096"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "rlsvar",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.0027230773707895973"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "rlsvar",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.000274874638816868"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "rlsvar",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.00030478648021656923"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "rlsvar",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.0026547617929401934"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "periodic",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "-0.00095399691227918"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "periodic",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "-0.0001375375587643514"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "periodic",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.021486356760916068"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "periodic",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.00018415592543706685"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "periodic",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.002194525156621562"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "periodic",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.0205175520054824"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "periodic",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.0012350163692474464"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "periodic",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.0014800065514630862"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "periodic",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.012145372051804717"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "periodic",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.00181113029302716"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "periodic",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.0011271312814515302"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "periodic",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.03179614622546109"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "random",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.0005212849686771804"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "random",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.002209484824455458"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "random",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.004248215379877744"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "random",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.001634383086288741"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "random",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.003889230123455627"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "random",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.008067203101210308"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "random",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.0003514601306491795"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "random",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.0006200885368365417"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "random",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.0016293654618776536"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "random",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.00042198831090637935"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "random",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.0021191358130742063"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "random",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.00630680850030058"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "confidence",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.0065506040634522415"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "confidence",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.011863585287246207"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "confidence",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.032317983085091366"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "confidence",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.0008368506981327958"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "confidence",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.012506074398378773"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "confidence",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.028766458381177484"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "confidence",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.0030655002672430546"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "confidence",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.0016340544939959087"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "confidence",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.017276604280804096"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "confidence",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.015749461224980874"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "confidence",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.021450626969363937"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "confidence",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.05091088659329253"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "envelope",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.0014814702321068191"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "envelope",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.0011969063036555369"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "envelope",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.011525393038967907"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "envelope",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.0033531287960499555"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "envelope",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.008360861502530485"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "envelope",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.024203716018350713"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "envelope",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.0019634349160892284"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "envelope",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.000998133349266409"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "envelope",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.005039457659313775"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "envelope",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.0008721530158187268"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "envelope",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.003772009242297465"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "envelope",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.005333005439239234"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "rlsvar",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "-0.0003480430753564767"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "rlsvar",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.004620905132958707"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "rlsvar",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.01997025895750756"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "rlsvar",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.00017170408386432383"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "rlsvar",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.010687643352459624"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "rlsvar",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.05019727534169038"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "rlsvar",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.0008907032076146268"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "rlsvar",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.002727634566550877"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "rlsvar",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.005986367699368853"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "rlsvar",
+        "budget": 5,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.0003251301023191272"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "rlsvar",
+        "budget": 10,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.00044743747986561943"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "rlsvar",
+        "budget": 20,
+        "metric": "mae",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.0037271338314634494"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "periodic",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "-0.055555555555555566"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "periodic",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "-0.0277777777777778"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "periodic",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "-0.11111111111111116"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "periodic",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "2.7755575615628914e-17"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "periodic",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.24999999999999997"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "periodic",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.7499999999999999"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "periodic",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.25"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "periodic",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-6.938893903907228e-17"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "periodic",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.5833333333333334"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "periodic",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.08333333333333326"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "periodic",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.33333333333333326"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "periodic",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.5"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "random",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.00833333333333338"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "random",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "-0.030555555555555544"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "random",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "-0.09444444444444436"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "random",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.16666666666666696"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "random",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.1833333333333335"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "random",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.2500000000000002"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "random",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.0666666666666665"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "random",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.0333333333333331"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "random",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.2333333333333333"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "random",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.07500000000000032"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "random",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.24166666666666703"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "random",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.3"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "confidence",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "-0.16666666666666669"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "confidence",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.08333333333333331"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "confidence",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.02777777777777779"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "confidence",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.4166666666666667"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "confidence",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.6666666666666666"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "confidence",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.7500000000000001"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "confidence",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.4166666666666667"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "confidence",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.4166666666666667"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "confidence",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.5000000000000001"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "confidence",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.5"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "confidence",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-1.3877787807814457e-17"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "confidence",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.16666666666666669"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "envelope",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.05555555555555549"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "envelope",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.13888888888888884"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "envelope",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.25"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "envelope",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.24999999999999997"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "envelope",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.3333333333333333"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "envelope",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.4166666666666667"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "envelope",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.16666666666666663"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "envelope",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.24999999999999997"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "envelope",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.08333333333333337"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "envelope",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.08333333333333316"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "envelope",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.16666666666666677"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "envelope",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.24999999999999997"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "rlsvar",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.08333333333333331"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "rlsvar",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.1666666666666666"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "rlsvar",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.05555555555555545"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "rlsvar",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.16666666666666663"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "rlsvar",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.33333333333333326"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "rlsvar",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.5"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "rlsvar",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.08333333333333333"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "rlsvar",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.0"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "rlsvar",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.0833333333333333"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "rlsvar",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.16666666666666669"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "rlsvar",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.16666666666666655"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine",
+        "schedule": "rlsvar",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.4166666666666669"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "periodic",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "-0.08333333333333334"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "periodic",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "-0.0277777777777778"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "periodic",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "-0.19444444444444434"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "periodic",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "2.7755575615628914e-17"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "periodic",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.3333333333333333"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "periodic",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "1.0833333333333335"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "periodic",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.25"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "periodic",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.08333333333333344"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "periodic",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.5833333333333334"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "periodic",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-5.551115123125783e-17"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "periodic",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.33333333333333326"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "periodic",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-1.0833333333333333"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "random",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "-0.011111111111111087"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "random",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "-0.06111111111111097"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "random",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "-0.12777777777777763"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "random",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.1750000000000003"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "random",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.23333333333333356"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "random",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.3416666666666669"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "random",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.09166666666666648"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "random",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.08333333333333284"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "random",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.30833333333333296"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "random",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.11666666666666707"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "random",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.33333333333333365"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "random",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.41666666666666685"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "confidence",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "-0.19444444444444448"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "confidence",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.1111111111111111"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "confidence",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.25"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "confidence",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.4166666666666667"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "confidence",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.8333333333333334"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "confidence",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "1.25"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "confidence",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.5000000000000001"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "confidence",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.4166666666666667"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "confidence",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.5000000000000001"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "confidence",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.5"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "confidence",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.08333333333333337"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "confidence",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-4.163336342344337e-17"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "envelope",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "-4.6982094141038523e-17"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "envelope",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.05555555555555547"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "envelope",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.19444444444444442"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "envelope",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.24999999999999997"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "envelope",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.33333333333333337"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "envelope",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.6666666666666667"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "envelope",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.16666666666666663"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "envelope",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.08333333333333323"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "envelope",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.08333333333333337"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "envelope",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.08333333333333347"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "envelope",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.25000000000000017"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "envelope",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.1666666666666668"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "rlsvar",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.11111111111111109"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "rlsvar",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.19444444444444442"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "rlsvar",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.24999999999999992"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "rlsvar",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.0833333333333333"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "rlsvar",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.5"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "rlsvar",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "1.25"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "rlsvar",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-1.3877787807814457e-17"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "rlsvar",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.0"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "rlsvar",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.08333333333333323"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "rlsvar",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.24999999999999997"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "rlsvar",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.08333333333333323"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l095",
+        "schedule": "rlsvar",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.5833333333333335"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "periodic",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "-0.08333333333333334"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "periodic",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "-0.0555555555555556"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "periodic",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "-0.13888888888888898"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "periodic",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "2.7755575615628914e-17"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "periodic",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.3333333333333333"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "periodic",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "1.5"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "periodic",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.16666666666666669"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "periodic",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.08333333333333344"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "periodic",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.5"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "periodic",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.08333333333333337"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "periodic",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.4166666666666667"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "periodic",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-1.4166666666666667"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "random",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "-0.0138888888888889"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "random",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "-0.08055555555555553"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "random",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "-0.0722222222222224"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "random",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.1833333333333336"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "random",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.27500000000000024"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "random",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.6166666666666667"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "random",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.09999999999999981"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "random",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.09999999999999971"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "random",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.33333333333333315"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "random",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.12500000000000047"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "random",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.4166666666666671"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "random",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.5000000000000007"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "confidence",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "-0.25"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "confidence",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.08333333333333336"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "confidence",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.2777777777777778"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "confidence",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.4166666666666667"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "confidence",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.7500000000000001"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "confidence",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "1.25"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "confidence",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.5000000000000001"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "confidence",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.4166666666666667"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "confidence",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.5833333333333334"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "confidence",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.6666666666666666"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "confidence",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.08333333333333338"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "confidence",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.16666666666666669"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "envelope",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "-0.027777777777777853"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "envelope",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "-0.0833333333333334"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "envelope",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.25000000000000006"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "envelope",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.24999999999999997"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "envelope",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "0.25"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "envelope",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "1.0"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "envelope",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.08333333333333331"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "envelope",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-8.326672684688674e-17"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "envelope",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "5.551115123125783e-17"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "envelope",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.2500000000000002"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "envelope",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.5000000000000001"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "envelope",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.2499999999999999"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "rlsvar",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.027777777777777755"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "rlsvar",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.2777777777777777"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "rlsvar",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "estimate",
+      "stored_value": "0.7777777777777777"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "rlsvar",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "-1.3877787807814457e-17"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "rlsvar",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "1.0"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "rlsvar",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D6",
+      "stored_value": "3.083333333333333"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "rlsvar",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.16666666666666669"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "rlsvar",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "-0.08333333333333333"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "rlsvar",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D8",
+      "stored_value": "0.1666666666666666"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "rlsvar",
+        "budget": 5,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "0.24999999999999997"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "rlsvar",
+        "budget": 10,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.08333333333333348"
+    },
+    {
+      "file": "CONDITIONAL_RESAMPLING_EFFECTS.csv",
+      "keys": {
+        "model": "RF",
+        "bounds": "primary",
+        "scope": "ALL",
+        "estimator": "affine_l090",
+        "schedule": "rlsvar",
+        "budget": 20,
+        "metric": "p1.0",
+        "block_length": 10,
+        "effect": "incremental"
+      },
+      "field": "D10",
+      "stored_value": "-0.9166666666666665"
+    },
+    {
+      "file": "C5_PRIMARY_SESSION_TABLE.csv",
+      "keys": {
+        "day": 11,
+        "scope": "ALL"
+      },
+      "field": "consensus_mae",
+      "stored_value": "2.1575922575658226"
+    },
+    {
+      "file": "C5_PRIMARY_SESSION_TABLE.csv",
+      "keys": {
+        "day": 11,
+        "scope": "ALL"
+      },
+      "field": "affine_B0_mae",
+      "stored_value": "2.130208276346401"
+    },
+    {
+      "file": "C5_PRIMARY_SESSION_TABLE.csv",
+      "keys": {
+        "day": 11,
+        "scope": "ALL"
+      },
+      "field": "affine_B20_mae",
+      "stored_value": "2.0383809833612605"
+    },
+    {
+      "file": "C5_PRIMARY_SESSION_TABLE.csv",
+      "keys": {
+        "day": 12,
+        "scope": "ALL"
+      },
+      "field": "consensus_mae",
+      "stored_value": "1.0315975288655614"
+    },
+    {
+      "file": "C5_PRIMARY_SESSION_TABLE.csv",
+      "keys": {
+        "day": 12,
+        "scope": "ALL"
+      },
+      "field": "affine_B0_mae",
+      "stored_value": "0.8921165191274452"
+    },
+    {
+      "file": "C5_PRIMARY_SESSION_TABLE.csv",
+      "keys": {
+        "day": 12,
+        "scope": "ALL"
+      },
+      "field": "affine_B20_mae",
+      "stored_value": "0.8969957884479698"
+    },
+    {
+      "file": "C5_PRIMARY_SESSION_TABLE.csv",
+      "keys": {
+        "day": 13,
+        "scope": "ALL"
+      },
+      "field": "consensus_mae",
+      "stored_value": "1.1817590113870144"
+    },
+    {
+      "file": "C5_PRIMARY_SESSION_TABLE.csv",
+      "keys": {
+        "day": 13,
+        "scope": "ALL"
+      },
+      "field": "affine_B0_mae",
+      "stored_value": "1.0437102773919598"
+    },
+    {
+      "file": "C5_PRIMARY_SESSION_TABLE.csv",
+      "keys": {
+        "day": 13,
+        "scope": "ALL"
+      },
+      "field": "affine_B20_mae",
+      "stored_value": "1.0416537938350265"
+    },
+    {
+      "file": "C5_PRIMARY_TABLE.csv",
+      "keys": {
+        "scope": "ALL"
+      },
+      "field": "consensus_mae",
+      "stored_value": "1.4569829326061328"
+    },
+    {
+      "file": "C5_PRIMARY_TABLE.csv",
+      "keys": {
+        "scope": "ALL"
+      },
+      "field": "affine_B0_mae",
+      "stored_value": "1.355345024288602"
+    },
+    {
+      "file": "C5_PRIMARY_TABLE.csv",
+      "keys": {
+        "scope": "ALL"
+      },
+      "field": "affine_envelope_B20_mae",
+      "stored_value": "1.3256768552147524"
+    },
+    {
+      "file": "C5_PRIMARY_SESSION_TABLE.csv",
+      "keys": {
+        "day": 11,
+        "scope": "Figaro"
+      },
+      "field": "consensus_mae",
+      "stored_value": "2.571045613789014"
+    },
+    {
+      "file": "C5_PRIMARY_SESSION_TABLE.csv",
+      "keys": {
+        "day": 11,
+        "scope": "Figaro"
+      },
+      "field": "affine_B0_mae",
+      "stored_value": "2.3960638171882436"
+    },
+    {
+      "file": "C5_PRIMARY_SESSION_TABLE.csv",
+      "keys": {
+        "day": 11,
+        "scope": "Figaro"
+      },
+      "field": "affine_B20_mae",
+      "stored_value": "2.353344941942929"
+    },
+    {
+      "file": "C5_PRIMARY_SESSION_TABLE.csv",
+      "keys": {
+        "day": 12,
+        "scope": "Figaro"
+      },
+      "field": "consensus_mae",
+      "stored_value": "1.5835971368886559"
+    },
+    {
+      "file": "C5_PRIMARY_SESSION_TABLE.csv",
+      "keys": {
+        "day": 12,
+        "scope": "Figaro"
+      },
+      "field": "affine_B0_mae",
+      "stored_value": "1.2793867189413095"
+    },
+    {
+      "file": "C5_PRIMARY_SESSION_TABLE.csv",
+      "keys": {
+        "day": 12,
+        "scope": "Figaro"
+      },
+      "field": "affine_B20_mae",
+      "stored_value": "1.286454886980257"
+    },
+    {
+      "file": "C5_PRIMARY_SESSION_TABLE.csv",
+      "keys": {
+        "day": 13,
+        "scope": "Figaro"
+      },
+      "field": "consensus_mae",
+      "stored_value": "1.9413085955189078"
+    },
+    {
+      "file": "C5_PRIMARY_SESSION_TABLE.csv",
+      "keys": {
+        "day": 13,
+        "scope": "Figaro"
+      },
+      "field": "affine_B0_mae",
+      "stored_value": "1.6153227989879952"
+    },
+    {
+      "file": "C5_PRIMARY_SESSION_TABLE.csv",
+      "keys": {
+        "day": 13,
+        "scope": "Figaro"
+      },
+      "field": "affine_B20_mae",
+      "stored_value": "1.6043849677012623"
+    },
+    {
+      "file": "C5_PRIMARY_TABLE.csv",
+      "keys": {
+        "scope": "Figaro"
+      },
+      "field": "consensus_mae",
+      "stored_value": "2.031983782065526"
+    },
+    {
+      "file": "C5_PRIMARY_TABLE.csv",
+      "keys": {
+        "scope": "Figaro"
+      },
+      "field": "affine_B0_mae",
+      "stored_value": "1.7635911117058494"
+    },
+    {
+      "file": "C5_PRIMARY_TABLE.csv",
+      "keys": {
+        "scope": "Figaro"
+      },
+      "field": "affine_envelope_B20_mae",
+      "stored_value": "1.748061598874816"
+    },
+    {
+      "file": "C5_PRIMARY_SESSION_TABLE.csv",
+      "keys": {
+        "day": 11,
+        "scope": "FIS"
+      },
+      "field": "consensus_mae",
+      "stored_value": "1.744138901342632"
+    },
+    {
+      "file": "C5_PRIMARY_SESSION_TABLE.csv",
+      "keys": {
+        "day": 11,
+        "scope": "FIS"
+      },
+      "field": "affine_B0_mae",
+      "stored_value": "1.8643527355045593"
+    },
+    {
+      "file": "C5_PRIMARY_SESSION_TABLE.csv",
+      "keys": {
+        "day": 11,
+        "scope": "FIS"
+      },
+      "field": "affine_B20_mae",
+      "stored_value": "1.7234170247795924"
+    },
+    {
+      "file": "C5_PRIMARY_SESSION_TABLE.csv",
+      "keys": {
+        "day": 12,
+        "scope": "FIS"
+      },
+      "field": "consensus_mae",
+      "stored_value": "0.47959792084246716"
+    },
+    {
+      "file": "C5_PRIMARY_SESSION_TABLE.csv",
+      "keys": {
+        "day": 12,
+        "scope": "FIS"
+      },
+      "field": "affine_B0_mae",
+      "stored_value": "0.5048463193135805"
+    },
+    {
+      "file": "C5_PRIMARY_SESSION_TABLE.csv",
+      "keys": {
+        "day": 12,
+        "scope": "FIS"
+      },
+      "field": "affine_B20_mae",
+      "stored_value": "0.5075366899156827"
+    },
+    {
+      "file": "C5_PRIMARY_SESSION_TABLE.csv",
+      "keys": {
+        "day": 13,
+        "scope": "FIS"
+      },
+      "field": "consensus_mae",
+      "stored_value": "0.4222094272551208"
+    },
+    {
+      "file": "C5_PRIMARY_SESSION_TABLE.csv",
+      "keys": {
+        "day": 13,
+        "scope": "FIS"
+      },
+      "field": "affine_B0_mae",
+      "stored_value": "0.47209775579592456"
+    },
+    {
+      "file": "C5_PRIMARY_SESSION_TABLE.csv",
+      "keys": {
+        "day": 13,
+        "scope": "FIS"
+      },
+      "field": "affine_B20_mae",
+      "stored_value": "0.47892261996879065"
+    },
+    {
+      "file": "C5_PRIMARY_TABLE.csv",
+      "keys": {
+        "scope": "FIS"
+      },
+      "field": "consensus_mae",
+      "stored_value": "0.88198208314674"
+    },
+    {
+      "file": "C5_PRIMARY_TABLE.csv",
+      "keys": {
+        "scope": "FIS"
+      },
+      "field": "affine_B0_mae",
+      "stored_value": "0.9470989368713546"
+    },
+    {
+      "file": "C5_PRIMARY_TABLE.csv",
+      "keys": {
+        "scope": "FIS"
+      },
+      "field": "affine_envelope_B20_mae",
+      "stored_value": "0.9032921115546886"
+    }
+  ]
+}

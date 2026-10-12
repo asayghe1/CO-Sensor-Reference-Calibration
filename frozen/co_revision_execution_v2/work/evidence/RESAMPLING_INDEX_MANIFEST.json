@@ -1,0 +1,65 @@
+[
+  {
+    "block_length": 5,
+    "session": "D10",
+    "replicates": 2000,
+    "file": "indices_L5_D10.npy",
+    "sha256": "fdaf75a7ae9f19e99b7cfe7adca46862df203fbf1723f7d2206b09098c83859f"
+  },
+  {
+    "block_length": 5,
+    "session": "D6",
+    "replicates": 2000,
+    "file": "indices_L5_D6.npy",
+    "sha256": "85c1df6ccf030a21d45ae0ae6201cbf5dbf30b49e1d71076f006620e9ba45f15"
+  },
+  {
+    "block_length": 5,
+    "session": "D8",
+    "replicates": 2000,
+    "file": "indices_L5_D8.npy",
+    "sha256": "197ffa196cc85ea870c709c5a893ccc14fb3e9b52cf299ab89c0ea28602c5522"
+  },
+  {
+    "block_length": 10,
+    "session": "D10",
+    "replicates": 2000,
+    "file": "indices_L10_D10.npy",
+    "sha256": "ca57c33e052e9091d90f33d82ea805479b3c93f461cf10f11f81467e22cc199c"
+  },
+  {
+    "block_length": 10,
+    "session": "D6",
+    "replicates": 2000,
+    "file": "indices_L10_D6.npy",
+    "sha256": "2896aa26d517a86c4a3450f2b5da7d5f1a797512a46986003b5a9f9f81b2bfb1"
+  },
+  {
+    "block_length": 10,
+    "session": "D8",
+    "replicates": 2000,
+    "file": "indices_L10_D8.npy",
+    "sha256": "2490e69f5ff49c7dbd9e69ba7d9f3b42fbfd840991b50b9eb5353cee93018174"
+  },
+  {
+    "block_length": 20,
+    "session": "D10",
+    "replicates": 2000,
+    "file": "indices_L20_D10.npy",
+    "sha256": "e757fb5e487d86de47b2f245a7a8405539581304ee7eba9566c4044aa658bef0"
+  },
+  {
+    "block_length": 20,
+    "session": "D6",
+    "replicates": 2000,
+    "file": "indices_L20_D6.npy",
+    "sha256": "bbce7600e553f6d7f910248dbcc7f13d648b8068dbb460e497c2321bd32bf12a"
+  },
+  {
+    "block_length": 20,
+    "session": "D8",
+    "replicates": 2000,
+    "file": "indices_L20_D8.npy",
+    "sha256": "52e7f57763abfee5a1b84b0c6a47013834c64ce31a233040fbf2d708c2e0cecc"
+  }
+]

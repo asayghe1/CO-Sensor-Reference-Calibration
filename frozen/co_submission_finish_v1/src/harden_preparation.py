@@ -1,0 +1,6 @@
+from pathlib import Path
+O=Path(__file__).resolve().parents[1]
+p=O/'src/prepare_c5.py';s=p.read_text().replace("rows=json.loads(source.read_text());assert len(rows)==10800", "frozen=json.loads((OUT/'C5_INPUT_MANIFEST.json').read_text())\nexpected_hash=next(v['sha256'] for v in frozen['records'] if v['path']==str(source.relative_to(ROOT)))\nassert hashlib.sha256(source.read_bytes()).hexdigest()==expected_hash\nrows=json.loads(source.read_text());assert len(rows)==10800\nexpected={(d,e,u) for d in (*FIT,10) for e in range(1,101) for u in UNITS}\nactual={(v['day'],v['exposure'],v['unit']) for v in rows}\nassert actual==expected and len(actual)==len(rows)\nassert all(v['id']==f\"D{v['day']:02d}_E{v['exposure']:03d}_R{v['unit']:02d}\" for v in rows)")
+p.write_text(s)
+p=O/'src/c5_inputs.py';s=p.read_text().replace("pp=[];ts=[]\n for j,item", "pp=[];ts=[]\n if [v['unit'] for v in manifest['models']]!=list(UNITS) or [v['unit'] for v in manifest['D10_normalization']]!=list(UNITS):raise ValueError('unit order integrity failure')\n for j,item");p.write_text(s)
+p=O/'src/test_c5_isolation.py';s=p.read_text();start=s.index("obs=block['observables'];");end=s.index('# C5 uses actual');s=s[:start]+"obs=block['observables']\n"+s[end:];p.write_text(s)
