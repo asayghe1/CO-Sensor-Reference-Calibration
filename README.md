@@ -1,6 +1,6 @@
 # CO sensor-array manuscript: frozen reproducibility package
 
-**Local author-review candidate; not yet a public GitHub release.** This repository accompanies *Historical recalibration versus additional reference checks in CO sensor arrays: a chronological evaluation* (Measurement manuscript). It reproduces the reported development and separately frozen fixed-D10 temporal-confirmation analyses from saved numerical evidence. No published repository URL, DOI, journal acceptance, or all-author approval is claimed.
+This repository contains the reproducibility materials for *Historical recalibration versus additional reference checks in CO sensor arrays: a chronological evaluation*. It reproduces the reported development and fixed-D10 temporal-confirmation analyses from saved numerical evidence.
 
 Ali Sayghe; Husam A. Bakhsh; Olugbenga Moses Anubi. Correspondence: **sayghea@rcjy.edu.sa**. Full affiliations and order are in [AUTHORS.md](AUTHORS.md).
 
@@ -27,7 +27,7 @@ To include the LaTeX build, install a standard TeX Live distribution with pdfLaT
 python scripts/reproduce.py --latex
 ```
 
-This builds `main.pdf`, `supplement.pdf`, `title_page.pdf`, `cover_letter_draft.pdf`, and `highlights_draft.pdf` in `build/manuscript/`. It checks references, author metadata, warnings, and text equality against the supplied main/supplement/title-page PDFs. A document-only build needs no Python:
+This builds `main.pdf`, `supplement.pdf`, `title_page.pdf`, `cover_letter.pdf`, and `highlights.pdf` in `build/manuscript/`. It checks references, author metadata, warnings, and text equality against the supplied main/supplement/title-page PDFs. A document-only build needs no Python:
 
 ```sh
 cd manuscript
@@ -55,7 +55,7 @@ These new CSVs are written to `build/predictions/`; packaged `predictions/` file
 | --- | --- |
 | `frozen/` | Exact original scientific source, protocols, manifests, frozen models, feature records, development arrays, confirmation outputs, masks, causal records, metrics and archived resampling banks; large text/array files are losslessly gzip-wrapped. |
 | `predictions/` | Compact gzip CSVs containing all released development/confirmation predictions, references, masks, error-envelope endpoints and configuration identities. |
-| `manuscript/` | Completed author-finalized manuscript and supplement, title page, static figures, all tables, bibliography, editable LaTeX, and approval-marked cover-letter/highlights drafts. |
+| `manuscript/` | Manuscript and supplement, title page, static figures, all tables, bibliography, editable LaTeX, cover letter and highlights. |
 | `scripts/` | Portable evidence-only scoring, verification and reporting adapters. |
 | `manifests/` | Source-to-release paths, original and packaged hashes, document provenance and release file hashes. |
 | `docs/MANUSCRIPT_MAP.md` | Exact table/figure-to-file mappings, row selectors and calculation rules. |
@@ -78,6 +78,4 @@ Confirmation midpoint-envelope diagnostics include **38 false assurances / 74 fl
 
 The public source is UCI dataset 487, DOI [10.24432/C5S302](https://doi.org/10.24432/C5S302), *Gas sensor array temperature modulation*. The [official UCI record](https://archive.ics.uci.edu/dataset/487/gas+sensor+array+temperature+modulation) lists CC BY 4.0. [Dataset instructions](data/README.md) give the official download route and historically verified archive hashes. No download is performed by the reproduction command.
 
-Original project code and release tooling carry the [MIT license](LICENSE) in this candidate. Dataset-derived numerical evidence is attributed under [DATA_LICENSE.md](DATA_LICENSE.md). `unsrtnat.bst` retains its separate LPPL terms. Manuscript prose is excluded from the code license; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Final release/license authority and access arrangements remain for author confirmation.
-
-[AUTHOR_CONFIRMATIONS.md](AUTHOR_CONFIRMATIONS.md) retains unresolved funding, competing interests, CRediT contributions, access arrangements, AI-use disclosure and all-author approval. [GITHUB_RELEASE_CHECKLIST.md](GITHUB_RELEASE_CHECKLIST.md) records technical checks and release steps still requiring authors. Automated checks are not human scientific verification. Full rendered PDF-page inspection remains outstanding; compiler/text checks do not replace it. The local clean-clone check uses installed declared dependencies; a fresh online dependency installation and testing across platforms are separate outstanding checks.
+Original project code and release tooling carry the [MIT license](LICENSE). Dataset-derived numerical evidence is attributed under [DATA_LICENSE.md](DATA_LICENSE.md). `unsrtnat.bst` retains its separate LPPL terms. Manuscript prose is excluded from the code license; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). [GITHUB_RELEASE_CHECKLIST.md](GITHUB_RELEASE_CHECKLIST.md) records the reproducibility checks used for this release. Full rendered PDF-page inspection and fresh online dependency installation remain separate checks from the numerical reproduction.
