@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite the accompanying manuscript and the original UCI dataset when using this reproducibility package. This is a local author-review candidate; publication identifiers are not yet assigned."
+message: "Please cite the accompanying manuscript and the original UCI dataset when using these reproducibility materials."
 title: "Historical recalibration versus additional reference checks in CO sensor arrays: a chronological evaluation — reproducibility materials"
 type: software
 authors:
@@ -20,5 +20,5 @@ keywords:
   - calibration
   - temporal confirmation
   - reproducibility
-# Repository URL, publication DOI, release date and archival identifier are omitted
-# until they actually exist and have been approved by the authors.
+repository-code: "https://github.com/asayghe1/CO-Sensor-Reference-Calibration"
+# Publication DOI and archival identifier can be added after they are issued.
