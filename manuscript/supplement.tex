@@ -10,16 +10,16 @@
 \input{author_details.tex}
 \input{editorial_layout.tex}
 \hypersetup{pdftitle={Supplement: \ManuscriptTitle}}
-\date{Author-review draft}
+\date{}
 \newcommand{\FloatBarrier}{\par}
 \begin{document}
-\nocite{miquel2022,baur2020,uci487,gaebel2026,gruber2023,walter1990,calliess2017,malherbe2017,vergara2012,spinelle2015,spinelle2017,ljung1983,angelopoulos2021,burgues2018linear,burgues2018opls,jcgm100,jcgm200}
+\nocite{miquel2022,baur2020,uci487,gaebel2026,gruber2023,walter1990,calliess2017,malherbe2017,vergara2012,spinelle2015,spinelle2017,se2024,ljung1983,angelopoulos2021,burgues2018linear,burgues2018opls,jcgm100,jcgm200}
 \maketitle
 \section*{Contents and numerical-file guide}
 \begingroup\raggedright
-S1: full-precision provenance and denominator definitions. S2: envelope conditions and contradiction handling. S3: complete RF family/pooled budget grid (Table S1; AGGREGATE\_METRICS.csv). S4: limited OLS/ridge affine robustness (Table S2). S5: concentration support and relative tolerance (Table S3; METRICS\_BY\_RUN\_FAMILY\_BAND\_SUBSET.csv). S6: timing (Table S4; QUERY\_TIMING\_BY\_RUN.csv). S7: exact negative slope95 diagnostic (Table S5; SLOPE95\_CROSSTAB.csv). S8: development-only conditional length sensitivity and all three day effects (Table S6; CONDITIONAL\_RESAMPLING\_EFFECTS.csv, LOSS\_TIME\_STRUCTURE.csv). S9: code/data access. S10: separately frozen fixed-D10 temporal confirmation, complete budget grids, family/session cells, containment and assurance. Every configuration/subset/count is in METRICS\_BY\_CONFIGURATION.csv. Figures 1--3 rebuild from SESSION\_METRICS.csv and conditional effects. RESAMPLING\_INDEX\_MANIFEST.json identifies saved paired banks; EXCEEDANCE\_SHARES.csv records weighted family numerators and denominators.\par\endgroup
+S1: full-precision provenance and denominator definitions. S2: envelope conditions and contradiction handling. S3: complete RF family/pooled budget grid (Table S1; AGGREGATE\_METRICS.csv). S4: limited OLS/ridge affine robustness (Table S2). S5: concentration support and relative tolerance (Table S3; METRICS\_BY\_RUN\_FAMILY\_BAND\_SUBSET.csv). S6: timing (Table S4; QUERY\_TIMING\_BY\_RUN.csv). S7: exact negative slope95 diagnostic (Table S5; SLOPE95\_CROSSTAB.csv). S8: development-only conditional length sensitivity and all three day effects (Table S6; CONDITIONAL\_RESAMPLING\_EFFECTS.csv, LOSS\_TIME\_STRUCTURE.csv). S9: code/data access. S10: fixed-D10 temporal confirmation, complete budget grids, family/session cells, containment and assurance. Every configuration/subset/count is in METRICS\_BY\_CONFIGURATION.csv. Figures 1--3 rebuild from SESSION\_METRICS.csv and conditional effects. RESAMPLING\_INDEX\_MANIFEST.json identifies saved paired banks; EXCEEDANCE\_SHARES.csv records weighted family numerators and denominators.\par\endgroup
 \section{Numerical provenance and denominators}
-Values derive from authentic saved development prediction arrays and causal replays. The local archive records a versioned SHA256 protocol/source manifest; no Git tag is claimed. Development historical calibration is D5/D7/D9, assessment D6/D8/D10, and all original fit/exclusion/reservation roles remain fixed. Each assessment has 100 shared exposures and 1,200 correlated configuration outputs, with six configurations per family. No reserved measurements enter these development results; the separately authorized temporal-confirmation evidence is reported in S10.
+Values derive from authentic saved development prediction arrays and causal replays. The reproducibility archive records versioned SHA256 protocol and source manifests. Development historical calibration is D5/D7/D9, assessment D6/D8/D10, and all original fit/exclusion/reservation roles remain fixed. Each assessment has 100 shared exposures and 1,200 correlated configuration outputs, with six configurations per family. No reserved measurements enter these development results; the fixed-D10 temporal-confirmation evidence is reported in S10.
 
 Original B0 copies are collapsed only after exact equality of predictions, references, query flags and intervals is checked. The original logs and removed-duplicate mapping remain intact. Three affine lambdas retain named identities but share one B0 numerical state. Every original bound/upstream sensitivity is retained in the CSV, even where only primary results are typeset. Each numerical row has complete model/bounds/schedule/budget/seed/day identity and source provenance; tables show four-decimal MAE and percent rates, while CSVs retain stored precision.
 
@@ -44,9 +44,9 @@ False assurance is computed independently as a noncontradictory, own-center radi
 No confirmation bootstrap was performed. For development D6/D8/D10 only, paired overlapping blocks use 2,000 replicates, seed 487 and fixed lengths 5/10/20. One index bank per length/day is shared across all arms/families/endpoints. Configurations are not resampled independently. Fixed fits, trajectories, initialization and shared reference labels are conditioned upon; learning and reference uncertainty are not resimulated. Percentile intervals are conditional sensitivity bounds, requiring regularity assumptions for an inferential interpretation. Adaptive chronological loss paths may be nonstationary. Neither a zero crossing nor an excluded zero establishes equivalence, causal drift explanation or independent-array coverage. The complete CSV retains every comparator/metric, all three session effects and direction counts. Quarter means, lag-one correlations and linear trends inspect temporal structure without validating arbitrary nonstationarity.
 \input{table_s_resampling.tex}\FloatBarrier
 \section{Code and data access}
-The original UCI measurements are public under DOI 10.24432/C5S302. The complete permitted local development archive contains pre-query exports, source hashes, model/mask identities, causal logs, original training/replay code and derived development feature inputs. All tables and figures are supplied as static LaTeX build inputs alongside unchanged full-precision numerical files. The document-only figure utility reads those saved summary values to improve presentation; it performs no model fitting, prediction replay, metric recomputation or resampling. A public code/prediction deposit is not yet available; the final access and licensing arrangement awaits author approval. The temporal confirmation uses later sessions on the same apparatus. No reserved raw inputs are distributed.
+The original UCI measurements are public under DOI 10.24432/C5S302. Code, frozen numerical evidence and reproduction scripts for the reported analyses are deposited at \url{https://github.com/asayghe1/CO-Sensor-Reference-Calibration}. The raw UCI archive is obtained directly from UCI and is not redistributed. The temporal confirmation uses later sessions on the same apparatus; R7/R14 raw data and the sealed UCI270 batches are excluded from the study release.
 \section{Fixed-D10 temporal confirmation}\label{sec:sc5}
-These are separately authorized final D11/D12/D13 results, not additional development folds. Upstream RF fitting uses D1,D2,D4--D9 only; correction calibration and controller normalization use D10 only. Every session, policy, budget and seed resets to that same initialized state. R7/R14 and UCI270 batches 7--10 remain excluded. All 129 final paths were committed before summaries, and saved-output recomputation reproduces all 40,635 run metric rows and 5,040 aggregates. The protocol/source/model hashes and development evidence remain unchanged; no refit, retuning or final-result method selection occurred.
+These are the frozen D11/D12/D13 temporal-confirmation results, not additional development folds. Upstream RF fitting uses D1,D2,D4--D9 only; correction calibration and controller normalization use D10 only. Every session, policy, budget and seed resets to that same initialized state. R7/R14 and UCI270 batches 7--10 remain excluded. All 129 final paths were committed before summaries, and saved-output recomputation reproduces all 40,635 run metric rows and 5,040 aggregates. The protocol/source/model hashes and development evidence remain unchanged; no refit, retuning or final-result method selection occurred.
 
 The original pooled primary contrasts are historical affine $\lambda=1$ B0 minus raw consensus and incremental affine $\lambda=1$ envelope B20 minus own B0. The frozen descriptive criterion requires lower strict 1 ppm exceedance and nonpositive MAE change pooled and separately in both families; strict exceedance is primary and MAE is the guardrail. Historical benefit is heterogeneous because FIS MAE worsens on all three days. Incremental benefit meets the pooled-and-both-family aggregate criterion, but session reversals preclude uniform improvement. Envelope superiority over all three original schedule comparators is unsupported. FIS MAE improves relative to affine B0 (0.9471 to 0.9033 ppm) but remains worse than unchanged consensus (0.8820 ppm). The full cell tables retain all unfavorable values.
 
@@ -60,25 +60,8 @@ The all/queried/unqueried numerical records retain 0.5/1/2 ppm endpoints, RMSE, 
 
 \input{table_s_c5_all.tex}
 
-\begin{table}[H]
-\noindent The following files retain the complete confirmation records and full-precision presentation inputs.\par\medskip
-\centering\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.54\linewidth}>{\raggedright\arraybackslash}p{0.42\linewidth}@{}}
-\toprule
-File & Contents \\ \midrule
-\path{C5_METRICS.csv} & All run, configuration and subset metrics \\
-\path{C5_AGGREGATE.csv} & Frozen seed/day aggregates \\
-\path{C5_PRIMARY_TABLE.csv} & Primary pooled and family results \\
-\path{C5_PRIMARY_SESSION_TABLE.csv} & Every primary session/family cell \\
-\path{C5_B20_AFFINE_CHANGES.csv} & All fifteen affine B20 comparisons \\
-\path{C5_INTERVAL_TABLE.csv} & Noncontainment, contradictions and assurance \\
-\path{C5_RESULTS.md} & Scientific criteria and execution evidence \\
-\bottomrule
-\end{tabular}\end{table}
+Full-precision confirmation metrics, session/family cells, schedule comparisons, query masks and interval diagnostics are provided in the reproducibility repository together with the scripts that map them to the tables in this supplement.
 
-Raw noncontainment, false assurance and adverse cells remain valid scientific failures; leakage, integrity, quota or missing-group failures would invalidate evaluation, but none was observed. Reference-relative errors and descriptive later-session agreement do not establish certified uncertainty, independent-array validation or algorithmic novelty.
-
-\input{author_declarations.tex}
-\section*{AI-assisted work---draft disclosure for author approval}
-OpenAI ChatGPT and Codex assisted software, analysis/reporting code and manuscript preparation as described in the main manuscript. Confirmation of the complete tool inventory and human verification of AI-assisted work remains pending; all-author approval has not been supplied.
+Raw noncontainment, false assurance and adverse cells remain part of the reported evidence. The later-session results remain reference-relative and do not establish traceable uncertainty, independent-array validation or algorithmic novelty.
 \bibliographystyle{unsrtnat}\bibliography{references}
 \end{document}
