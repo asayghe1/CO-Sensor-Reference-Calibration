@@ -22,18 +22,17 @@
 \input{author_identity.tex}
 \input{editorial_layout.tex}
 \hypersetup{pdftitle={\ManuscriptTitle}}
-\date{Author-review draft: development and temporal confirmation}
+\date{}
 \begin{document}
 
 \title{Historical recalibration versus additional reference checks in CO sensor arrays: a chronological evaluation}
 \input{author_details.tex}
 \maketitle
 \begin{abstract}
-Reference-assisted calibration must distinguish historical correction from the value of additional checks. A chronological CO sensor-array evaluation uses established correction rules in three development sessions and a separately frozen temporal confirmation on three later sessions, with twelve correlated peer configurations and two sensor families. Predictions precede reference purchase. Frozen confirmation benefit requires lower strict 1 ppm exceedance and nonpositive mean absolute error (MAE) change pooled and in both families. In development, historical affine correction reduces pooled random forest MAE from 0.8993 to 0.7843 ppm, while all fifteen affine comparisons with 20 additional checks per session have adverse pooled MAE changes; lower-budget and upstream-model sensitivities differ. In confirmation, each session independently resets to the same D10 initialization. The prespecified envelope-driven 20-check schedule reduces pooled affine B0 MAE from 1.3553 to 1.3257 ppm and strict 1 ppm exceedance from 43.06\% to 42.14\%, meeting the incremental aggregate criterion. This reverses the development pattern. Historical benefit remains heterogeneous: FIS MAE worsens relative to unchanged consensus. Incremental FIS MAE improves from 0.9471 to 0.9033 ppm but remains worse than unchanged consensus at 0.8820 ppm. Adverse D12 and FIS D13 cells preclude uniform-session improvement, and envelope-schedule superiority is unsupported. Conditional resampling is development-only; no confirmation bootstrap was performed. Confirmation midpoint-envelope diagnostics record 284 raw noncontainments among 3,600 outputs and, separately, 38 false assurances among 74 flagged outputs and 38 among 3,600 total outputs. These diagnostics are not affine uncertainty intervals. The contribution is an information-matched evaluation of established algorithms; both stages use one apparatus and establish neither independent-array generalization nor certified uncertainty.
+Reference-assisted calibration should separate gains from historical recalibration from gains due to newly acquired references. We evaluate this distinction using public temperature-modulated carbon-monoxide sensor measurements from two sensor families. Chronological development and a frozen later-session evaluation each contain 300 shared chamber exposures and twelve correlated peer configurations per exposure. Predictions precede reference revelation, and budgets of 0, 5, 10 or 20 shared checks per session are matched across established correction methods and schedules. In development, historical inverse affine correction reduces pooled random-forest mean absolute error (MAE) from 0.8993 to 0.7843 ppm, while all fifteen affine comparisons at 20 checks worsen pooled MAE relative to their own zero-check baselines. In the later-session evaluation, the prespecified envelope-driven 20-check comparison instead reduces pooled affine MAE from 1.3553 to 1.3257 ppm and strict 1 ppm exceedance from 43.06\% to 42.14\%, satisfying the frozen aggregate criterion in both sensor families. This aggregate gain is dominated by D11: pooled MAE improves by 0.0918 ppm on D11, worsens by 0.0049 ppm on D12, and changes by only 0.0021 ppm on D13. FIS improves relative to affine B0 but remains worse than unchanged consensus. Residual-envelope assurance is also unstable: only 74 of 3,600 confirmation outputs receive a 1 ppm midpoint assurance flag, and 38 flags are false, with 37 occurring on D11. The results support explicit separation of historical, incremental and schedule effects, without implying uniform improvement, independent-array generalization or traceable uncertainty.
 \end{abstract}
 \paragraph{Keywords.}
 Metal-oxide gas sensors ; Reference-assisted calibration ; Calibration drift ; Chronological evaluation ; Recursive least squares ; Measurement uncertainty
-
 
 \input{section_1_introduction.tex}
 \input{section_2_setting.tex}
@@ -42,13 +41,18 @@ Metal-oxide gas sensors ; Reference-assisted calibration ; Calibration drift ; C
 \input{section_5_results.tex}
 \input{section_7_temporal_confirmation.tex}
 \input{section_6_discussion.tex}
+
 \section*{Data and code availability}
-The original measurements are public from UCI under DOI \href{https://doi.org/10.24432/C5S302}{10.24432/C5S302} \cite{uci487}. Full-precision development and separately frozen temporal-confirmation predictions, query masks, causal access logs, protocols, numerical endpoints and their source hashes are retained in a portable local reproducibility archive with original training/replay code and permitted development feature inputs. The accompanying numerical files provide full-precision inputs for the included tables and figures. A public code/prediction deposit and release identifier are not yet available; the final access and licensing arrangement awaits author approval. R7/R14 and the UCI270 reserved batches remain excluded.
+The source measurements are publicly available as \emph{Gas sensor array temperature modulation} in the UCI Machine Learning Repository under DOI \href{https://doi.org/10.24432/C5S302}{10.24432/C5S302} \cite{uci487}. Code, frozen numerical evidence and reproduction scripts for the reported development and temporal-confirmation analyses are deposited at \url{https://github.com/asayghe1/CO-Sensor-Reference-Calibration}. The raw UCI archive is not redistributed; it can be obtained directly from UCI using the documented download instructions. R7/R14 raw data and the sealed UCI270 batches are not part of this study release.
+
 \input{author_declarations.tex}
+
 \section*{Acknowledgment}
 The publicly released measurements and their documentation were provided by Javier Burgu\'es through the UCI Machine Learning Repository. The associated experimental studies are acknowledged in Refs.~\cite{burgues2018linear,burgues2018opls}.
+
 \section*{Declaration of generative AI and AI-assisted technologies in the writing process}
-OpenAI ChatGPT and Codex assisted software drafting and checking, analysis/reporting code, manuscript organization, exposition and literature checks. Figures were plotted from authentic numerical development and temporal-confirmation outputs. No experimental results were generated by an image model. This disclosure is a draft for author approval. Confirmation of the complete tool inventory, human verification of AI-assisted content and all-author approval remains pending; no such verification or approval is asserted here.
+During the preparation of this work, the authors used OpenAI ChatGPT and Codex to assist with software drafting and checking, analysis/reporting code, manuscript organization, exposition and literature checks. Figures were generated from the reported numerical outputs; no generative image model was used to create experimental results. The authors reviewed and edited the AI-assisted material and take responsibility for the content of the manuscript.
+
 \bibliographystyle{unsrtnat}
 \bibliography{references}
 \end{document}
