@@ -10,10 +10,10 @@ for target in main supplement; do
   pdflatex -recorder -interaction=nonstopmode -halt-on-error "$target.tex"
   pdflatex -recorder -interaction=nonstopmode -halt-on-error "$target.tex"
 done
-for target in title_page cover_letter_draft highlights_draft; do
+for target in title_page cover_letter highlights; do
   pdflatex -recorder -interaction=nonstopmode -halt-on-error "$target.tex"
   pdflatex -recorder -interaction=nonstopmode -halt-on-error "$target.tex"
 done
-if grep -E 'Overfull \\[hv]box|undefined references|undefined citations|Citation .* undefined|Reference .* undefined' main.log supplement.log title_page.log cover_letter_draft.log highlights_draft.log; then
+if grep -E 'Overfull \\[hv]box|undefined references|undefined citations|Citation .* undefined|Reference .* undefined' main.log supplement.log title_page.log cover_letter.log highlights.log; then
   exit 2
 fi

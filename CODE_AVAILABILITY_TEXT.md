@@ -1,5 +1,7 @@
-# Code availability — draft for author approval
+# Code availability
 
-The accompanying reproducibility package contains the preprocessing and feature-extraction code, RF/OLS/ridge model code, correction and reference-scheduling methods, frozen development and C5 evaluation source, and reporting scripts. Its documented evidence-only workflow reproduces reported numbers and presentation assets from the saved numerical evidence without refitting models or generating new predictions. Original project code is packaged under the MIT license, with separate attribution for dataset-derived materials and third-party components. The public repository URL will be inserted after release: **[GITHUB_REPOSITORY_URL]**.
+The preprocessing and feature-extraction code, RF/OLS/ridge model code, correction and reference-scheduling methods, frozen development and temporal-confirmation evaluation source, reporting scripts, and reproduction instructions are available at:
 
-Current status: this is a local author-review release candidate. Public release, license authority, the final access arrangement and all-author approval remain to be confirmed. No repository, archival DOI, release tag or completed human scientific verification is asserted.
+https://github.com/asayghe1/CO-Sensor-Reference-Calibration
+
+The evidence-only workflow reproduces the reported numerical tables and presentation assets from the saved numerical evidence without refitting models or generating new predictions. Original project code and release tooling are distributed under the repository's stated license, with separate attribution for dataset-derived materials and third-party components.

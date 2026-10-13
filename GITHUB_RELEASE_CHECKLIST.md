@@ -1,16 +1,14 @@
-# GitHub release checklist — author-review candidate
+# GitHub release checklist
 
-Technical results are recorded in `verification/` and `GITHUB_RELEASE_SUMMARY.md`. This checklist does not authorize publication.
+Technical reproducibility results are recorded in `verification/`.
 
-- [x] Sensitive-file scan: run `python scripts/scan_release.py` on the final distributable tree; inspect compressed text, PDF metadata/text, credential filenames and private absolute paths. The distributable-tree pattern/filename scan passed; see `verification/RELEASE_SCAN.json`.
-- [x] File-size scan: every ordinary Git file must remain below 50 MiB in this candidate. GitHub warns above 50 MiB and blocks files above 100 MiB; see [GitHub documentation](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github). Do not commit the outer release ZIP or raw UCI archive to the source repository.
-- [x] License-file and attribution check: MIT text for original code, CC BY 4.0 dataset attribution, unchanged LPPL bibliography-style notice and license text, and manuscript exclusion are present. Authors must confirm release authority and final access terms.
-- [x] Reproducibility test: `python -m unittest discover -s tests -v` and `python scripts/reproduce.py --latex`. The complete evidence-only workflow and all eight release-tool tests passed in a fresh local clone.
-- [x] Fresh extraction: the checksum inventory passed and all five PDFs were rebuilt after removing precompiled document PDFs. The tested scientific/build payload is recorded in `verification/FRESH_ARCHIVE_CHECK.json`; the final ZIP is also checked separately, with an external archive-verification record. Numerical reproduction was run from the clean clone.
-- [x] Clean-clone test: run the complete workflow from a fresh local Git clone containing only distributable files. No remote is contacted or published. An online clean dependency installation remains a separate check because network installation was not performed here.
-- [x] Manuscript-number reproduction: all 950 numerical table rows, 412 plotted source cells, complete development metric CSVs, all 40,635 confirmation metric rows, all 5,040 confirmation aggregates, the saved development conditional bounds, and explicit unfavorable primary checkpoints passed.
-- [ ] Fresh online dependency installation and cross-platform test: not performed; the declared installed Python/TeX dependencies were used.
-- [ ] Repository URL insertion: after an actual GitHub repository exists, add its URL to README, CITATION.cff, DATA_AVAILABILITY_TEXT.md and CODE_AVAILABILITY_TEXT.md; update manuscript access text only with author approval. Do not invent a URL or DOI.
-- [ ] Author review: resolve funding, competing interests, individual CRediT contributions, final access terms and all-author approval in AUTHOR_CONFIRMATIONS.md. Complete full rendered-page review; automated tooling review is not human verification.
-- [ ] Optional Zenodo archival: after the authors release an approved GitHub version, optionally archive it and insert the issued DOI/version identifiers. No archival identifier currently exists.
-- [ ] Publish only after authors approve. No upload, submission, external contact or publication has been performed during preparation.
+- [x] Sensitive-file scan completed for the distributable tree.
+- [x] File-size scan completed; ordinary tracked files remain below GitHub's large-file limits.
+- [x] License and attribution files are present for original code, dataset-derived materials and third-party components.
+- [x] Numerical reproduction and clean-clone checks passed for the frozen scientific package before the submission-text cleanup.
+- [x] Manuscript-number reproduction passed for the frozen development and temporal-confirmation evidence.
+- [x] Repository URL inserted in README, CITATION.cff, data/code availability text and submission manuscript.
+- [ ] Repository visibility: change `asayghe1/CO-Sensor-Reference-Calibration` from private to public before manuscript submission.
+- [ ] Rebuild the updated submission branch with `cd manuscript && bash build.sh` and confirm zero LaTeX errors, unresolved citations/references and overfull boxes.
+- [ ] Complete full rendered-page inspection of the updated main manuscript, supplement, title page, cover letter and highlights.
+- [ ] Optional: perform a fresh online dependency installation/cross-platform reproduction and archive a public release with Zenodo after publication-ready review.
